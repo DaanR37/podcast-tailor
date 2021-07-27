@@ -1,0 +1,54 @@
+#home {
+    position: relative;
+    height: 100vh;
+    // width: 100vw;
+    background-color: #292a2a;
+}
+
+.front-logo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    // height: 100%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    img {
+        width: 100%;
+    }
+}
+
+button.splide__arrow.splide__arrow--prev {
+    left: 16em;
+    top: 55%;
+    svg {
+        fill: #479082;
+    }
+}
+
+button.splide__arrow.splide__arrow--next {
+    right: 16em;
+    top: 55%;
+    svg {
+        fill: #479082;
+    }
+}
+
+// button.splide__arrow.splide__arrow--prev svg {
+//     fill: #479082;
+// }
+
+// button.splide__arrow.splide__arrow--next svg {
+//     fill: #479082;
+// }
+
+
+
+
+// .splide__arrow {
+//     // fill: #479082;
+//     fill: black;
+// }
+
+
+
