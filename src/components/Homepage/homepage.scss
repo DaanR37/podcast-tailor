@@ -5,9 +5,16 @@
     background-color: #292a2a;
 }
 
-.front-logo {
+.lineaal {
     position: absolute;
-    top: 55%;
+    width: 95%;
+    left: 2.4%;
+}
+
+//podcast logo & arrows Homepage
+.front-logo {
+    position: relative;
+    top: 50%;
     left: 50%;
     // height: 100%;
     width: 40%;
@@ -18,18 +25,384 @@
     }
 }
 
+// .arrows-logo-left-right {
+//     position: absolute;
+//     display: flex;
+//     width: 100%;
+//     justify-content: space-between;
+//     h3 {
+//         font-family: "Roboto", sans-serif;
+//         font-size: 18px;
+//         font-weight: 600;
+//         letter-spacing: 0.1em;
+//         text-transform: uppercase;
+//         color: #479082;
+//         // text-decoration: none;
+//         // transform: rotate(-90deg);
+//     }
+// }
+
+// .contact-ons {
+//     position: relative;
+//     transform: rotate(90deg);
+//     left: 3%;
+// }
+
+// .makers {
+//     position: relative;
+//     transform: rotate(-90deg);
+//     right: 3.5%;
+// }
+
+.contact-ons {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #479082;
+        // text-decoration: none;
+        transform: rotate(-90deg);
+    }
+}
+
+.makers {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #479082;
+        // text-decoration: none;
+        transform: rotate(90deg);
+    }
+}
+
+//makers foto cards & arrows De Makers
+// .foto-container {
+    // position: relative;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .boys-pics {
+//     position: absolute;
+//     display: flex;
+//     align-items: center;
+//     // justify-content: center;
+//     // list-style-type: none;
+//     width: 50%;
+//     height: 50%;
+//     top: 30%;
+//     left: 25%;
+// }
+
+// .btn-jason {
+//     position: relative;
+//     background: none;
+//     color: inherit;
+//     border: none;
+//     padding: 0;
+//     font: inherit;
+//     // cursor: pointer;
+//     outline: inherit;
+// }
+
+// .foto-jason {
+//     position: relative;
+//     left: 3%;
+//     width: 90%;
+//     filter: brightness(0.3);
+//     &:hover {
+//         filter: brightness(1);
+//         transition: 300ms ease-in-out;
+//         cursor: pointer;
+//     }
+// }
+
+.btn-julius {
+    position: absolute;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    filter: brightness(0.3);
+    width: 25%;
+    // height: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    img {
+        width: 100%;
+    }
+    &:hover {
+        filter: brightness(1);
+        transition: 300ms ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.contact-ons-links {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #479082;
+        // text-decoration: none;
+        transform: rotate(90deg);
+    }
+}
+
+.home-arrow {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #479082;
+        // text-decoration: none;
+        transform: rotate(-90deg);
+    }
+}
+
+//contact card & arrows Contact Ons
+.contact-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    // height: 100%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    img {
+        width: 100%;
+    }
+}
+
+.contact-links {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    right: 1rem;
+    ul {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        text-align: center;
+        li:nth-child(1) > a {
+            color: #f2a2ba;
+            text-decoration: none;
+        }
+        li:nth-child(2) > a {
+            color: #e95c47;
+            text-decoration: none;
+        }
+    }
+    ul > li:nth-child(1) {
+        margin-top: 4rem;
+    }
+    ul > li:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+.makers-rechts {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #479082;
+        // text-decoration: none;
+        transform: rotate(-90deg);
+    }
+}
+
+.home-arrow-links {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #479082;
+        // text-decoration: none;
+        transform: rotate(90deg);
+    }
+}
+
+//arrows next & previous styling
 button.splide__arrow.splide__arrow--prev {
-    left: 16em;
-    top: 55%;
+    left: 17em;
+    top: 54%;
     svg {
         fill: #479082;
+        stroke: #2a2a2a;
+        stroke-width: 2px;
+        &:hover {
+            fill: #de99a8;
+            transition: 300ms ease-in-out;
+        }
     }
 }
 
 button.splide__arrow.splide__arrow--next {
-    right: 16em;
-    top: 55%;
+    right: 17em;
+    top: 54%;
     svg {
         fill: #479082;
+        stroke: #2a2a2a;
+        stroke-width: 2px;
+        &:hover {
+            fill: #de99a8;
+            transition: 300ms ease-in-out;
+        }
     }
 }
+
+//arrow down & uitleg over podcast tailor
+.arrow-down {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: rotate(90deg) translate(-55%, 50%);
+    svg {
+        fill: #de99a8;
+        stroke: #2a2a2a;
+        stroke-width: 2px;
+        &:hover {
+            fill: #479082;
+            transition: 300ms ease-in-out;
+        }
+    }
+}
+
+.uitleg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-45%, 80%);
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #de99a8;
+    }
+}
+
+//modal & popup-text styling De Makers
+.content-details-two {
+    position: absolute;
+    width: 30%;
+    opacity: 0;
+    top: 10%;
+    left: 11%;
+    -webkit-transform: translate(25%, 70%);
+    -moz-transform: translate(25%, 70%);
+    transform: translate(25%, 70%);
+    -webkit-transition: all 1.2 ease-in-out 1.2s;
+    -moz-transition: all 1.2 ease-in-out 1.2s;
+    transition: all 1.2 ease-in-out 1.2s;
+}
+
+.content:hover .content-details-two {
+    opacity: 1;
+    img {
+        width: 100%;
+    }
+}
+
+//   .fadeIn-bottom-two {
+//     top: 10%;
+//   }
+
+// .modal-window {
+//     position: fixed;
+//     top: 0%;
+//     right: 30%;
+//     bottom: 0;
+//     left: 0;
+//     z-index: 999;
+//     visibility: hidden;
+//     opacity: 0;
+//     pointer-events: none;
+//     -webkit-transition: all 0.3s;
+//     -moz-transition: all 0.3s;
+//     transition: all 0.5s;
+//     &:target {
+//         visibility: visible;
+//         opacity: 0.9;
+//         pointer-events: auto;
+//     }
+//     & > div {
+//         width: 400px;
+//         position: absolute;
+//         top: 75%;
+//         left: 47.5%;
+//         transform: translate(-50%, -50%);
+//         padding: 2em;
+//     }
+//     img {
+//         width: 80%;
+//     }
+// }
+
+// .modal-close {
+//     position: absolute;
+//     z-index: 3;
+//     opacity: 0.6;
+//     left: 67.5%;
+//     top: 50px;
+//     width: 28px;
+//     &:hover {
+//         opacity: 0.9;
+//         transition: 300ms linear;
+//     }
+// }
+
+// .modal-window div:not(:last-of-type) {
+//     margin-bottom: 15px;
+// }

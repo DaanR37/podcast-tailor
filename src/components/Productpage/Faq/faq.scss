@@ -1,0 +1,33 @@
+#faq-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #292a2a;
+}
+
+.faq-tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    transform: translate(-50%, -50%);
+    img {
+        width: 100%;
+    }
+}
+
+.times {
+    position: absolute;
+    width: 3vw;
+    top: 5%;
+    right: 4%;
+    opacity: 0.7;
+    z-index: 1;
+    &:hover {
+      opacity: 1;
+      transition: 300ms linear;
+    }
+    img {
+      filter: invert(1);
+    }
+  }
