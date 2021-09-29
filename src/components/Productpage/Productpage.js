@@ -20,7 +20,7 @@ export default function Productpage() {
                     <ul className="buttons-mid-right-podcasts">
                         <li><a href="/" className="button-home-middle-podcasts">de podcasts</a></li>
                         <li>
-                            <button className="button-aanvraag-podcasts" data-tf-slider="DiduTuKu" data-tf-width="550">
+                            <button className="button-aanvraag-podcasts" data-tf-slider="QInKKEpl" data-tf-width="550">
                                 Doe een aanvraag
                             </button>
                         </li>
@@ -72,7 +72,7 @@ export default function Productpage() {
                 </motion.a>
 
                 <div className="aanvraag-knop">
-                    <motion.button data-tf-slider="DiduTuKu" data-tf-width="550"
+                    <motion.button data-tf-slider="QInKKEpl" data-tf-width="550"
                         whileHover={{
                             scale: 1.1,
                             // originX: 0.6,

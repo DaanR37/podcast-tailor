@@ -10,7 +10,7 @@ const Navbar = () => {
             <ul className="buttons-mid-right">
                 <li><a href="#" className="button-home-middle">Home</a></li>
                 <li>
-                    <button className="button-aanvraag" data-tf-slider="DiduTuKu" data-tf-width="550">
+                    <button className="button-aanvraag" data-tf-slider="QInKKEpl" data-tf-width="550">
                         Doe een aanvraag
                     </button>
                 </li>

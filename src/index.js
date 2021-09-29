@@ -14,7 +14,7 @@ class Series extends Component{
   
   componentDidMount(){
     const popup1 = typeformEmbed.makePopup(
-      'https://5ih8bu19m4v.typeform.com/to/DiduTuKu',
+      'https://6f4as2q72gf.typeform.com/to/QInKKEpl',
       {
         mode: 'drawer_right',
         autoClose: 3000,

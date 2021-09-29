@@ -26,7 +26,7 @@ export default function PodcastTailor() {
                 <ul className="buttons-mid-right-uitleg">
                     <li><a href="/" className="button-home-middle-uitleg">wat is de podcast tailor?</a></li>
                     <li>
-                        <button className="button-aanvraag-uitleg" data-tf-slider="DiduTuKu" data-tf-width="550">
+                        <button className="button-aanvraag-uitleg" data-tf-slider="QInKKEpl" data-tf-width="550">
                             Doe een aanvraag
                         </button>
                     </li>
