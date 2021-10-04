@@ -18,7 +18,7 @@ export default function Productpage() {
                         <li><a href="#home" className="button-home-left">Home</a></li>
                     </ul>
                     <ul className="buttons-mid-right-podcasts">
-                        <li><a href="/" className="button-home-middle-podcasts">de podcasts</a></li>
+                        <li><button className="button-home-middle-podcasts">de podcasts</button></li>
                         <li>
                             <button className="button-aanvraag-podcasts" data-tf-slider="QInKKEpl" data-tf-width="550">
                                 Doe een aanvraag
@@ -29,7 +29,7 @@ export default function Productpage() {
             </div>
 
             <div className="product-cards-container">
-                <motion.a href="/"
+                <motion.button
                     whileHover={{
                         scale: 1.1,
                         // originX: 0,
@@ -41,9 +41,9 @@ export default function Productpage() {
                         src="images/Pakket-S.png"
                         alt="pakket een"
                     />
-                </motion.a>
+                </motion.button>
 
-                <motion.a href="/"
+                <motion.button
                     whileHover={{
                         scale: 1.1,
                         // originX: 0,
@@ -55,9 +55,9 @@ export default function Productpage() {
                         src="images/Pakket-M.png"
                         alt="pakket twee"
                     />
-                </motion.a>
+                </motion.button>
 
-                <motion.a href="/"
+                <motion.button
                     whileHover={{
                         scale: 1.1,
                         // originX: 0.6,
@@ -69,7 +69,7 @@ export default function Productpage() {
                         src="images/Pakket-L.png"
                         alt="pakket een"
                     />
-                </motion.a>
+                </motion.button>
 
                 <div className="aanvraag-knop">
                     <motion.button data-tf-slider="QInKKEpl" data-tf-width="550"

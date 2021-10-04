@@ -24,13 +24,12 @@ export default function PodcastTailor() {
                     <li><a href="#product-page" className="button-podcast">De Podcasts</a></li>
                 </ul>
                 <ul className="buttons-mid-right-uitleg">
-                    <li><a href="/" className="button-home-middle-uitleg">wat is de podcast tailor?</a></li>
+                    <li><button className="button-home-middle-uitleg">wat is de podcast tailor?</button></li>
                     <li>
                         <button className="button-aanvraag-uitleg" data-tf-slider="QInKKEpl" data-tf-width="550">
                             Doe een aanvraag
                         </button>
                     </li>
-                    {/* <li><a href="/" className="button-aanvraag-uitleg">Doe een aanvraag</a></li> */}
                 </ul>
             </nav>
             <div className="uitleg-tekst">
@@ -51,7 +50,7 @@ export default function PodcastTailor() {
 
                     <li>
                         <div className="content">
-                            <a href="/">
+                            <button>
                                 {/* <div className="content-overlay"></div> */}
                                 <img
                                     className="content-image"
@@ -65,13 +64,13 @@ export default function PodcastTailor() {
                                         alt="tekst ballon een"
                                     />
                                 </div>
-                            </a>
+                            </button>
                         </div>
                     </li>
 
                     <li>
                         <div className="content">
-                            <a href="/">
+                            <button>
                                 <img
                                     src="images/uitleg-2.png"
                                     alt="step two"
@@ -82,13 +81,13 @@ export default function PodcastTailor() {
                                         alt="tekst ballon twee"
                                     />
                                 </div>
-                            </a>
+                            </button>
                         </div>
                     </li>
 
                     <li>
                         <div className="content">
-                            <a href="/">
+                            <button>
                                 <img
                                     src="images/uitleg-3.png"
                                     alt="step three"
@@ -99,13 +98,13 @@ export default function PodcastTailor() {
                                         alt="tekst ballon drie"
                                     />
                                 </div>
-                            </a>
+                            </button>
                         </div>
                     </li>
 
                     <li>
                         <div className="content">
-                            <a href="/">
+                            <button>
                                 <img
                                     src="images/uitleg-4.png"
                                     alt="step four"
@@ -116,13 +115,13 @@ export default function PodcastTailor() {
                                         alt="tekst ballon vier"
                                     />
                                 </div>
-                            </a>
+                            </button>
                         </div>
                     </li>
 
                     <li>
                         <div className="content">
-                            <a href="/">
+                            <button>
                                 <img
                                     src="images/uitleg-5.png"
                                     alt="step five"
@@ -133,7 +132,7 @@ export default function PodcastTailor() {
                                         alt="tekst ballon vijf"
                                     />
                                 </div>
-                            </a>
+                            </button>
                         </div>
                     </li>
                 </ul>

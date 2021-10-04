@@ -5,7 +5,7 @@ import { Component } from 'react';
 import * as typeformEmbed from "@typeform/embed";
 import Faq from "./components/Productpage/Faq/Faq";
 import App from './App';
-import './index.css';
+import './index.scss';
 
 // import { BrowserRouter as Router } from 'react-router-dom';
 // import reportWebVitals from './reportWebVitals';

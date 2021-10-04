@@ -53,11 +53,9 @@
     text-decoration: none;
     letter-spacing: 0.1em;
     margin: 0 auto;
-    cursor: default;
-    // &:hover {
-    //     color: #2a2a2a;
-    //     transition: 400ms ease-in-out;
-    // }
+    text-transform: uppercase;
+    background: none;
+    border: none;
 }
 
 .button-aanvraag {

@@ -16,7 +16,6 @@
     position: relative;
     top: 50%;
     left: 50%;
-    // height: 100%;
     width: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -24,35 +23,6 @@
         width: 100%;
     }
 }
-
-// .arrows-logo-left-right {
-//     position: absolute;
-//     display: flex;
-//     width: 100%;
-//     justify-content: space-between;
-//     h3 {
-//         font-family: "Roboto", sans-serif;
-//         font-size: 18px;
-//         font-weight: 600;
-//         letter-spacing: 0.1em;
-//         text-transform: uppercase;
-//         color: #479082;
-//         // text-decoration: none;
-//         // transform: rotate(-90deg);
-//     }
-// }
-
-// .contact-ons {
-//     position: relative;
-//     transform: rotate(90deg);
-//     left: 3%;
-// }
-
-// .makers {
-//     position: relative;
-//     transform: rotate(-90deg);
-//     right: 3.5%;
-// }
 
 .contact-ons {
     position: absolute;
@@ -65,7 +35,6 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #479082;
-        // text-decoration: none;
         transform: rotate(-90deg);
     }
 }
@@ -81,7 +50,6 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #479082;
-        // text-decoration: none;
         transform: rotate(90deg);
     }
 }
@@ -139,12 +107,8 @@
     padding: 0;
     font: inherit;
     outline: inherit;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    filter: brightness(0.3);
+    filter: brightness(0.6);
     width: 25%;
-    // height: 25%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -169,7 +133,6 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #479082;
-        // text-decoration: none;
         transform: rotate(90deg);
     }
 }
@@ -185,7 +148,6 @@
         letter-spacing: 0.25em;
         text-transform: uppercase;
         color: #479082;
-        // text-decoration: none;
         transform: rotate(-90deg);
     }
 }
@@ -198,7 +160,6 @@
     align-items: center;
     top: 50%;
     left: 50%;
-    // height: 100%;
     width: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -251,7 +212,6 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #479082;
-        // text-decoration: none;
         transform: rotate(-90deg);
     }
 }
@@ -267,7 +227,6 @@
         letter-spacing: 0.25em;
         text-transform: uppercase;
         color: #479082;
-        // text-decoration: none;
         transform: rotate(90deg);
     }
 }
@@ -351,7 +310,7 @@ button.splide__arrow.splide__arrow--next {
 .content:hover .content-details-two {
     opacity: 1;
     img {
-        width: 100%;
+        width: 80%;
     }
 }
 

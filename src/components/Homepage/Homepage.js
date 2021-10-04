@@ -43,22 +43,20 @@ const Homepage = () => {
                     {/* <div className="boys-pics"> */}
 
                     <div className="content">
-                        <a href="#">
-                            <button className="btn-julius">
-                                <img
-                                    src="images/Julius.png" className="foto-julius"
-                                    alt="foto julius"
-                                />
-                            </button>
+                        <button className="btn-julius">
+                            <img
+                                src="images/Julius.png" className="foto-julius"
+                                alt="foto julius"
+                            />
+                        </button>
 
 
-                            <div className="content-details-two fadeIn-bottom-two">
-                                <img
-                                    src="images/Julius-Tekst.png"
-                                    alt="tekst"
-                                />
-                            </div>
-                        </a>
+                        <div className="content-details-two fadeIn-bottom-two">
+                            <img
+                                src="images/Julius-Tekst.png"
+                                alt="tekst"
+                            />
+                        </div>
                     </div>
 
                     {/* <a href="#open-modal">
@@ -116,7 +114,6 @@ const Homepage = () => {
                         />
                     </div>
 
-                    {/* <div className="arrows-logo-left-right"> */}
                     <div className="contact-ons">
                         <h3>contact ons</h3>
                     </div>
@@ -124,7 +121,6 @@ const Homepage = () => {
                     <div className="makers">
                         <h3>de maker</h3>
                     </div>
-                    {/* </div> */}
 
 
                 </SplideSlide>
