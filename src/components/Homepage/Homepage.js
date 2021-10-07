@@ -133,9 +133,9 @@ const Homepage = () => {
                         />
                         <div className="contact-links">
                             <ul>
-                                <li><a href="mailto:info@podcasttailor.nl" target="_blank" rel="noreferrer">info@podcasttailor.nl</a></li>
+                                <li><a href="mailto:info@podcast-tailor.com" target="_blank" rel="noreferrer">info@podcast-tailor.com</a></li>
 
-                                <li><a href="tel:+31(0)634567890" target="_blank" rel="noreferrer">+31634567890</a></li>
+                                <li><a href="tel:0681476083" target="_blank" rel="noreferrer">+31681476083</a></li>
                             </ul>
                         </div>
                     </div>
