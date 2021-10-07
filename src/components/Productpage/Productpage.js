@@ -12,21 +12,19 @@ export default function Productpage() {
                     alt="lineaal"
                 />
             </div>
-            <div>
-                <nav className="nav-container-podcasts">
-                    <ul className="buttons-left-podcasts">
-                        <li><a href="#home" className="button-home-left">Home</a></li>
-                    </ul>
-                    <ul className="buttons-mid-right-podcasts">
-                        <li><button className="button-home-middle-podcasts">de podcasts</button></li>
-                        <li>
-                            <button className="button-aanvraag-podcasts" data-tf-slider="QInKKEpl" data-tf-width="550">
-                                Doe een aanvraag
-                            </button>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav className="nav-container-podcasts">
+                <ul className="buttons-left-podcasts">
+                    <li><a href="#home" className="button-home-left">Home</a></li>
+                </ul>
+                <ul className="buttons-mid-right-podcasts">
+                    <li><button className="button-home-middle-podcasts">de podcasts</button></li>
+                    <li>
+                        <button className="button-aanvraag-podcasts" data-tf-slider="QInKKEpl" data-tf-width="550">
+                            Doe een aanvraag
+                        </button>
+                    </li>
+                </ul>
+            </nav>
 
             <div className="product-cards-container">
                 <motion.button
@@ -70,23 +68,24 @@ export default function Productpage() {
                         alt="pakket een"
                     />
                 </motion.button>
-
-                <div className="aanvraag-knop">
-                    <motion.button data-tf-slider="QInKKEpl" data-tf-width="550"
-                        whileHover={{
-                            scale: 1.1,
-                            // originX: 0.6,
-                            textShadow: "0px 0px 2px rgb(255,255,255)"
-                        }}
-                        transition={{ type: 'spring', stiffness: 100 }}
-                    >
-                        <img
-                            src="images/Doe Aanvraag.png"
-                            alt="doe aanvraag"
-                        />
-                    </motion.button>
-                </div>
             </div>
+
+            <div className="aanvraag-knop">
+                <motion.button data-tf-slider="QInKKEpl" data-tf-width="550"
+                    whileHover={{
+                        scale: 1.1,
+                        // originX: 0.6,
+                        textShadow: "0px 0px 2px rgb(255,255,255)"
+                    }}
+                    transition={{ type: 'spring', stiffness: 100 }}
+                >
+                    <img
+                        src="images/Doe Aanvraag.png"
+                        alt="doe aanvraag"
+                    />
+                </motion.button>
+            </div>
+
             <footer className="footer-container">
                 <div className="footer">
                     <p>© 2021 Front-Labs. All Rights Reserved.</p>
