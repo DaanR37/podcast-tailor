@@ -1,322 +1,453 @@
 #home {
     position: relative;
     height: 100vh;
-    // width: 100vw;
+    width: 100vw;
     background-color: #292a2a;
 }
 
-.lineaal {
-    position: absolute;
-    width: 95%;
-    left: 2.4%;
-}
-
-//podcast logo & arrows Homepage
-.front-logo {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    img {
-        width: 100%;
+@media screen and (max-width: 1280px) and (orientation: portrait) {
+    .contact-ons {
+        display: none;
     }
-}
-
-.contact-ons {
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #479082;
-        transform: rotate(-90deg);
+    .makers {
+        display: none;
     }
-}
-
-.makers {
-    position: absolute;
-    top: 50%;
-    left: 6%;
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #479082;
-        transform: rotate(90deg);
+    .contact-ons-links {
+        display: none;
     }
-}
-
-//makers foto cards & arrows De Makers
-// .foto-container {
-    // position: relative;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-//     width: 100%;
-//     height: 100%;
-// }
-
-// .boys-pics {
-//     position: absolute;
-//     display: flex;
-//     align-items: center;
-//     // justify-content: center;
-//     // list-style-type: none;
-//     width: 50%;
-//     height: 50%;
-//     top: 30%;
-//     left: 25%;
-// }
-
-// .btn-jason {
-//     position: relative;
-//     background: none;
-//     color: inherit;
-//     border: none;
-//     padding: 0;
-//     font: inherit;
-//     // cursor: pointer;
-//     outline: inherit;
-// }
-
-// .foto-jason {
-//     position: relative;
-//     left: 3%;
-//     width: 90%;
-//     filter: brightness(0.3);
-//     &:hover {
-//         filter: brightness(1);
-//         transition: 300ms ease-in-out;
-//         cursor: pointer;
-//     }
-// }
-
-.btn-julius {
-    position: absolute;
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    outline: inherit;
-    filter: brightness(0.6);
-    width: 25%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    img {
-        width: 100%;
+    .home-arrow {
+        display: none;
     }
-    &:hover {
-        filter: brightness(1);
-        transition: 300ms ease-in-out;
-        cursor: pointer;
+    .makers-rechts {
+        display: none;
     }
-}
-
-.contact-ons-links {
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #479082;
-        transform: rotate(90deg);
+    .home-arrow-links {
+        display: none;
     }
-}
-
-.home-arrow {
-    position: absolute;
-    top: 50%;
-    right: 8%;
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0.25em;
-        text-transform: uppercase;
-        color: #479082;
-        transform: rotate(-90deg);
+    .lineaal {
+        position: absolute;
+        width: 150%;
+        left: 2.8%;
     }
-}
-
-//contact card & arrows Contact Ons
-.contact-card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    img {
-        width: 100%;
-    }
-}
-
-.contact-links {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    right: 1rem;
-    ul {
-        list-style-type: none;
-        text-transform: uppercase;
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        letter-spacing: 0.1em;
-        text-align: center;
-        li:nth-child(1) > a {
-            color: #f2a2ba;
-            text-decoration: none;
-        }
-        li:nth-child(2) > a {
-            color: #e95c47;
-            text-decoration: none;
-        }
-    }
-    ul > li:nth-child(1) {
-        margin-top: 4rem;
-    }
-    ul > li:nth-child(2) {
-        margin-top: 20px;
-    }
-}
-
-.makers-rechts {
-    position: absolute;
-    top: 50%;
-    right: 6%;
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #479082;
-        transform: rotate(-90deg);
-    }
-}
-
-.home-arrow-links {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0.25em;
-        text-transform: uppercase;
-        color: #479082;
-        transform: rotate(90deg);
-    }
-}
-
-//arrows next & previous styling
-button.splide__arrow.splide__arrow--prev {
-    left: 17em;
-    top: 54%;
-    svg {
-        fill: #479082;
-        stroke: #2a2a2a;
-        stroke-width: 2px;
-        &:hover {
-            fill: #de99a8;
-            transition: 300ms ease-in-out;
-        }
-    }
-}
-
-button.splide__arrow.splide__arrow--next {
-    right: 17em;
-    top: 54%;
-    svg {
-        fill: #479082;
-        stroke: #2a2a2a;
-        stroke-width: 2px;
-        &:hover {
-            fill: #de99a8;
-            transition: 300ms ease-in-out;
-        }
-    }
-}
-
-//arrow down & uitleg over podcast tailor
-.arrow-down {
-    position: absolute;
-    top: 83%;
-    left: 50%;
-    transform: rotate(90deg) translate(-55%, 50%);
-    svg {
-        fill: #de99a8;
-        stroke: #2a2a2a;
-        stroke-width: 2px;
-        &:hover {
-            fill: #479082;
-            transition: 300ms ease-in-out;
-        }
-    }
-}
-
-.uitleg {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-45%, 80%);
-    h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 21px;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #de99a8;
-    }
-}
-
-//modal & popup-text styling De Makers
-.content-details-two {
-    position: absolute;
-    width: 30%;
-    opacity: 0;
-    top: 10%;
-    left: 11%;
-    -webkit-transform: translate(25%, 70%);
-    -moz-transform: translate(25%, 70%);
-    transform: translate(25%, 70%);
-    -webkit-transition: all 1.2 ease-in-out 1.2s;
-    -moz-transition: all 1.2 ease-in-out 1.2s;
-    transition: all 1.2 ease-in-out 1.2s;
-}
-
-.content:hover .content-details-two {
-    opacity: 1;
-    img {
+    //Front Logo & arrow styling
+    .front-logo {
+        position: relative;
+        top: 50%;
+        left: 50%;
         width: 80%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    button.splide__arrow.splide__arrow--prev {
+        left: 1em;
+        top: 50%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 2px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    button.splide__arrow.splide__arrow--next {
+        right: 1em;
+        top: 50%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 2px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    //De Makers & eventuele pop-up (optioneel)
+    .btn-julius {
+        position: absolute;
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        outline: inherit;
+        filter: brightness(0.6);
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+            width: 100%;
+        }
+    }
+    .content-details-two {
+        display: none;
+        // position: absolute;
+        // width: 30%;
+        // opacity: 0;
+        // top: 10%;
+        // left: 11%;
+        // -webkit-transform: translate(25%, 70%);
+        // -moz-transform: translate(25%, 70%);
+        // transform: translate(25%, 70%);
+        // -webkit-transition: all 1.2 ease-in-out 1.2s;
+        // -moz-transition: all 1.2 ease-in-out 1.2s;
+        // transition: all 1.2 ease-in-out 1.2s;
+    }
+    .content:hover .content-details-two {
+        display: none;
+        //     opacity: 1;
+        //     img {
+        //         width: 80%;
+        //     }
+    }
+    //contact card & arrows Contact Ons
+    .contact-card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    .contact-links {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        right: 1rem;
+        ul {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            text-align: center;
+            li:nth-child(1) > a {
+                color: #f2a2ba;
+                text-decoration: none;
+            }
+            li:nth-child(2) > a {
+                color: #e95c47;
+                text-decoration: none;
+            }
+        }
+        ul > li:nth-child(1) {
+            margin-top: 2.5rem;
+        }
+        ul > li:nth-child(2) {
+            margin-top: 10px;
+        }
+    }
+    #home > a > div.arrow-down {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 80%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        svg {
+            fill: #de99a8;
+            stroke: #2a2a2a;
+            stroke-width: 3px;
+            transform: rotate(90deg);
+        }
+    }
+    #home > a > div.uitleg {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 90%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #de99a8;
+        }
     }
 }
 
-//   .fadeIn-bottom-two {
-//     top: 10%;
-//   }
+@media screen and (min-width: 1280px) {
+    .lineaal {
+        position: absolute;
+        width: 95%;
+        left: 2.4%;
+    }
+    //podcast logo & arrows Homepage
+    .front-logo {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 40%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    .contact-ons {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #479082;
+            transform: rotate(-90deg);
+        }
+    }
+    .makers {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #479082;
+            transform: rotate(90deg);
+        }
+    }
+    button.splide__arrow.splide__arrow--prev {
+        left: 17em;
+        top: 54%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 2px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    button.splide__arrow.splide__arrow--next {
+        right: 17em;
+        top: 54%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 2px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    //makers foto cards & arrows De Makers
+    .btn-julius {
+        position: absolute;
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        outline: inherit;
+        filter: brightness(0.6);
+        width: 25%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+            width: 100%;
+        }
+        &:hover {
+            filter: brightness(1);
+            transition: 300ms ease-in-out;
+            cursor: pointer;
+        }
+    }
+    .contact-ons-links {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #479082;
+            transform: rotate(90deg);
+        }
+    }
+    .home-arrow {
+        position: absolute;
+        top: 50%;
+        right: 8%;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: #479082;
+            transform: rotate(-90deg);
+        }
+    }
+    //modal & popup-text styling De Makers
+    .content-details-two {
+        position: absolute;
+        width: 30%;
+        opacity: 0;
+        top: 10%;
+        left: 11%;
+        -webkit-transform: translate(25%, 70%);
+        -moz-transform: translate(25%, 70%);
+        transform: translate(25%, 70%);
+        -webkit-transition: all 1.2 ease-in-out 1.2s;
+        -moz-transition: all 1.2 ease-in-out 1.2s;
+        transition: all 1.2 ease-in-out 1.2s;
+    }
+    .content:hover .content-details-two {
+        opacity: 1;
+        img {
+            width: 80%;
+        }
+    }
+
+    //contact card & arrows Contact Ons
+    .contact-card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        width: 40%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    .contact-links {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        right: 1rem;
+        ul {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            text-align: center;
+            li:nth-child(1) > a {
+                color: #f2a2ba;
+                text-decoration: none;
+            }
+            li:nth-child(2) > a {
+                color: #e95c47;
+                text-decoration: none;
+            }
+        }
+        ul > li:nth-child(1) {
+            margin-top: 4rem;
+        }
+        ul > li:nth-child(2) {
+            margin-top: 20px;
+        }
+    }
+    .makers-rechts {
+        position: absolute;
+        top: 50%;
+        right: 6%;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #479082;
+            transform: rotate(-90deg);
+        }
+    }
+    .home-arrow-links {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: #479082;
+            transform: rotate(90deg);
+        }
+    }
+
+    // arrow down & uitleg over podcast tailor
+    #home > a > div.arrow-down {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 82%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        svg {
+            fill: #de99a8;
+            stroke: #2a2a2a;
+            stroke-width: 2px;
+            transform: rotate(90deg);
+            &:hover {
+                fill: #479082;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+
+    #home > a > div.uitleg {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 90%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 21px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #de99a8;
+        }
+    }
+}
+
+//Reserve code voor pop-up met close-click
 
 // .modal-window {
 //     position: fixed;
