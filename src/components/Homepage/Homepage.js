@@ -50,7 +50,6 @@ const Homepage = () => {
                             />
                         </button>
 
-
                         <div className="content-details-two fadeIn-bottom-two">
                             <img
                                 src="images/Julius-Tekst.png"
@@ -60,49 +59,43 @@ const Homepage = () => {
                     </div>
 
                     {/* <a href="#open-modal">
-                                <button className="btn-julius">
+                        <button className="btn-julius">
+                            <img
+                                src="images/Julius.png" className="foto-julius"
+                                alt="foto julius"
+                            />
+                        </button>
+                    </a>
+
+                    <div id="open-modal" className="modal-window">
+                        <div>
+                            <div className="modal-close">
+                                <a href="#modal-close" title="Close">
                                     <img
-                                        src="images/Julius.png" className="foto-julius"
-                                        alt="foto julius"
+                                        src="images/times-circle.svg"
+                                        alt="times"
                                     />
-                                </button>
-                            </a>
-
-                            <div id="open-modal" className="modal-window">
-                                <div>
-                                    <div className="modal-close">
-                                        <a href="#modal-close" title="Close">
-                                            <img
-                                                src="images/times-circle.svg"
-                                                alt="times"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <img
-                                            src="images/Julius-Tekst.png"
-                                            alt="tekst"
-                                        />
-                                    </div>
-                                </div>
-                            </div> */}
-
-                    {/* <button className="btn-jason">
+                                </a>
+                            </div>
+                            <div>
                                 <img
-                                    src="images/Jason.png" className="foto-jason"
-                                    alt="foto julius"
+                                    src="images/Julius-Tekst.png"
+                                    alt="tekst"
                                 />
-                            </button> */}
+                            </div>
+                        </div>
+                    </div> */}
 
                     {/* </div> */}
                     {/* </div> */}
 
-
-                    <div className="contact-ons-links">
-                        <h3>contact ons</h3>
-                    </div>
-                    <div className="home-arrow">
-                        <h3>home</h3>
+                    <div className="slider-buttons">
+                        <div className="contact-ons-links">
+                            <h3>contact ons</h3>
+                        </div>
+                        <div className="home-arrow">
+                            <h3>home</h3>
+                        </div>
                     </div>
 
                 </SplideSlide>
@@ -114,14 +107,15 @@ const Homepage = () => {
                         />
                     </div>
 
-                    <div className="contact-ons">
-                        <h3>contact ons</h3>
-                    </div>
+                    <div className="slider-buttons">
+                        <div className="contact-ons">
+                            <h3>contact ons</h3>
+                        </div>
 
-                    <div className="makers">
-                        <h3>de maker</h3>
+                        <div className="makers">
+                            <h3>de maker</h3>
+                        </div>
                     </div>
-
 
                 </SplideSlide>
 
@@ -140,12 +134,15 @@ const Homepage = () => {
                         </div>
                     </div>
 
-                    <div className="makers-rechts">
-                        <h3>de maker</h3>
+                    <div className="slider-buttons">
+                        <div className="makers-rechts">
+                            <h3>de maker</h3>
+                        </div>
+                        <div className="home-arrow-links">
+                            <h3>home</h3>
+                        </div>
                     </div>
-                    <div className="home-arrow-links">
-                        <h3>home</h3>
-                    </div>
+
                 </SplideSlide>
             </Splide>
 

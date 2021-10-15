@@ -9,6 +9,9 @@ const Navbar = () => {
             </ul>
             <ul className="buttons-mid-right">
                 <li><button className="button-home-middle">Home</button></li>
+                <li className="mobile-logo">
+                    <img src="images/Logo-mobile.png" alt="mobile logo" />
+                </li>
                 <li>
                     <button className="button-aanvraag" data-tf-slider="QInKKEpl" data-tf-width="550">
                         Doe een aanvraag

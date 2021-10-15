@@ -29,7 +29,7 @@ export default function Productpage() {
             <div className="product-cards-container">
                 <motion.button
                     whileHover={{
-                        scale: 1.1,
+                        scale: 1.2,
                         // originX: 0,
                         textShadow: "0px 0px 2px rgb(255,255,255)"
                     }}
@@ -43,7 +43,7 @@ export default function Productpage() {
 
                 <motion.button
                     whileHover={{
-                        scale: 1.1,
+                        scale: 1.2,
                         // originX: 0,
                         textShadow: "0px 0px 2px rgb(255,255,255)"
                     }}
@@ -57,7 +57,7 @@ export default function Productpage() {
 
                 <motion.button
                     whileHover={{
-                        scale: 1.1,
+                        scale: 1.2,
                         // originX: 0.6,
                         textShadow: "0px 0px 2px rgb(255,255,255)"
                     }}

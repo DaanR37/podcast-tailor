@@ -86,26 +86,25 @@
         }
     }
     .content-details-two {
-        display: none;
-        // position: absolute;
-        // width: 30%;
-        // opacity: 0;
-        // top: 10%;
-        // left: 11%;
-        // -webkit-transform: translate(25%, 70%);
-        // -moz-transform: translate(25%, 70%);
-        // transform: translate(25%, 70%);
-        // -webkit-transition: all 1.2 ease-in-out 1.2s;
-        // -moz-transition: all 1.2 ease-in-out 1.2s;
-        // transition: all 1.2 ease-in-out 1.2s;
+        position: absolute;
+        width: 85%;
+        opacity: 0;
+        top: 34%;
+        right: 28%;
+        -webkit-transform: translate(25%, 70%);
+        -moz-transform: translate(25%, 70%);
+        transform: translate(25%, 70%);
+        -webkit-transition: all 1.2 ease-in-out 1.2s;
+        -moz-transition: all 1.2 ease-in-out 1.2s;
+        transition: all 1.2 ease-in-out 1.2s;
     }
     .content:hover .content-details-two {
-        display: none;
-        //     opacity: 1;
-        //     img {
-        //         width: 80%;
-        //     }
+        opacity: .9;
+        img {
+            width: 100%;
+        }
     }
+   
     //contact card & arrows Contact Ons
     .contact-card {
         position: relative;
@@ -195,7 +194,7 @@
     }
     //podcast logo & arrows Homepage
     .front-logo {
-        position: relative;
+        position: absolute;
         top: 50%;
         left: 50%;
         width: 40%;
@@ -205,10 +204,19 @@
             width: 100%;
         }
     }
+
+    .slider-buttons {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
     .contact-ons {
         position: absolute;
+        display: flex;
+        justify-content: flex-end;
         top: 50%;
-        right: 5%;
+        right: 1%;
+        transform: rotate(-90deg);
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 18px;
@@ -216,13 +224,15 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #479082;
-            transform: rotate(-90deg);
         }
     }
     .makers {
         position: absolute;
+        display: flex;
+        justify-content: flex-start;
         top: 50%;
-        left: 6%;
+        left: 2%;
+        transform: rotate(90deg);
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 18px;
@@ -230,7 +240,6 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #479082;
-            transform: rotate(90deg);
         }
     }
     button.splide__arrow.splide__arrow--prev {
@@ -273,6 +282,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        z-index: 1;
         img {
             width: 100%;
         }
@@ -282,10 +292,14 @@
             cursor: pointer;
         }
     }
+    
     .contact-ons-links {
         position: absolute;
+        display: flex;
+        justify-content: flex-start;
         top: 50%;
-        left: 5%;
+        left: 1%;
+        transform: rotate(90deg);
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 18px;
@@ -293,21 +307,22 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #479082;
-            transform: rotate(90deg);
         }
     }
     .home-arrow {
         position: absolute;
+        display: flex;
+        justify-content: flex-end;
         top: 50%;
-        right: 8%;
+        right: 4%;
+        transform: rotate(-90deg);
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 18px;
             font-weight: 600;
-            letter-spacing: 0.25em;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #479082;
-            transform: rotate(-90deg);
         }
     }
     //modal & popup-text styling De Makers
@@ -316,18 +331,19 @@
         width: 30%;
         opacity: 0;
         top: 10%;
-        left: 11%;
+        left: 9%;
         -webkit-transform: translate(25%, 70%);
         -moz-transform: translate(25%, 70%);
         transform: translate(25%, 70%);
         -webkit-transition: all 1.2 ease-in-out 1.2s;
         -moz-transition: all 1.2 ease-in-out 1.2s;
         transition: all 1.2 ease-in-out 1.2s;
+        z-index: 1;
     }
     .content:hover .content-details-two {
         opacity: 1;
         img {
-            width: 80%;
+            width: 100%;
         }
     }
 
@@ -380,8 +396,11 @@
     }
     .makers-rechts {
         position: absolute;
-        top: 50%;
-        right: 6%;
+        display: flex;
+        justify-content: flex-end;
+        // top: 50%;
+        right: 2%;
+        transform: rotate(-90deg);
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 18px;
@@ -389,21 +408,22 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #479082;
-            transform: rotate(-90deg);
         }
     }
     .home-arrow-links {
         position: absolute;
-        top: 50%;
-        left: 8%;
+        display: flex;
+        justify-content: flex-start;
+        // top: 50%;
+        left: 4%;
+        transform: rotate(90deg);
         h3 {
             font-family: "Roboto", sans-serif;
             font-size: 18px;
             font-weight: 600;
-            letter-spacing: 0.25em;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #479082;
-            transform: rotate(90deg);
         }
     }
 
