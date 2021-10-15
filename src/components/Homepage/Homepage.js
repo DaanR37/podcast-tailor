@@ -11,7 +11,7 @@ const Homepage = () => {
         width: '100%',
         type: 'loop',
         autoplay: false,
-        speed: 1500,
+        speed: 1000,
         arrows: true,
         easing: 'ease',
         // interval: 6000,
@@ -89,13 +89,11 @@ const Homepage = () => {
                     {/* </div> */}
                     {/* </div> */}
 
-                    <div className="slider-buttons">
-                        <div className="contact-ons-links">
-                            <h3>contact ons</h3>
-                        </div>
-                        <div className="home-arrow">
-                            <h3>home</h3>
-                        </div>
+                    <div className="contact-ons-links">
+                        <h3>contact ons</h3>
+                    </div>
+                    <div className="home-arrow">
+                        <h3>home</h3>
                     </div>
 
                 </SplideSlide>
@@ -107,14 +105,12 @@ const Homepage = () => {
                         />
                     </div>
 
-                    <div className="slider-buttons">
-                        <div className="contact-ons">
-                            <h3>contact ons</h3>
-                        </div>
+                    <div className="contact-ons">
+                        <h3>contact ons</h3>
+                    </div>
 
-                        <div className="makers">
-                            <h3>de maker</h3>
-                        </div>
+                    <div className="makers">
+                        <h3>de maker</h3>
                     </div>
 
                 </SplideSlide>
@@ -134,13 +130,11 @@ const Homepage = () => {
                         </div>
                     </div>
 
-                    <div className="slider-buttons">
-                        <div className="makers-rechts">
-                            <h3>de maker</h3>
-                        </div>
-                        <div className="home-arrow-links">
-                            <h3>home</h3>
-                        </div>
+                    <div className="makers-rechts">
+                        <h3>de maker</h3>
+                    </div>
+                    <div className="home-arrow-links">
+                        <h3>home</h3>
                     </div>
 
                 </SplideSlide>

@@ -204,16 +204,8 @@
             width: 100%;
         }
     }
-
-    .slider-buttons {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    }
     .contact-ons {
         position: absolute;
-        display: flex;
-        justify-content: flex-end;
         top: 50%;
         right: 1%;
         transform: rotate(-90deg);
@@ -228,8 +220,6 @@
     }
     .makers {
         position: absolute;
-        display: flex;
-        justify-content: flex-start;
         top: 50%;
         left: 2%;
         transform: rotate(90deg);
@@ -282,7 +272,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 1;
         img {
             width: 100%;
         }
@@ -295,8 +284,6 @@
     
     .contact-ons-links {
         position: absolute;
-        display: flex;
-        justify-content: flex-start;
         top: 50%;
         left: 1%;
         transform: rotate(90deg);
@@ -311,8 +298,6 @@
     }
     .home-arrow {
         position: absolute;
-        display: flex;
-        justify-content: flex-end;
         top: 50%;
         right: 4%;
         transform: rotate(-90deg);
@@ -396,9 +381,7 @@
     }
     .makers-rechts {
         position: absolute;
-        display: flex;
-        justify-content: flex-end;
-        // top: 50%;
+        top: 50%;
         right: 2%;
         transform: rotate(-90deg);
         h3 {
@@ -412,9 +395,7 @@
     }
     .home-arrow-links {
         position: absolute;
-        display: flex;
-        justify-content: flex-start;
-        // top: 50%;
+        top: 50%;
         left: 4%;
         transform: rotate(90deg);
         h3 {
