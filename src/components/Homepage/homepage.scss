@@ -5,7 +5,7 @@
     background-color: #292a2a;
 }
 
-@media screen and (max-width: 1280px) and (orientation: portrait) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
     .contact-ons {
         display: none;
     }
@@ -99,12 +99,12 @@
         transition: all 1.2 ease-in-out 1.2s;
     }
     .content:hover .content-details-two {
-        opacity: .9;
+        opacity: 0.9;
         img {
             width: 100%;
         }
     }
-   
+
     //contact card & arrows Contact Ons
     .contact-card {
         position: relative;
@@ -186,6 +186,370 @@
     }
 }
 
+@media screen and (max-width: 600px) and (orientation: landscape) {
+
+}
+ 
+@media screen and (min-width: 600px) {
+    .contact-ons {
+        display: none;
+    }
+    .makers {
+        display: none;
+    }
+    .contact-ons-links {
+        display: none;
+    }
+    .home-arrow {
+        display: none;
+    }
+    .makers-rechts {
+        display: none;
+    }
+    .home-arrow-links {
+        display: none;
+    }
+    .lineaal {
+        position: absolute;
+        width: 150%;
+        left: 2.8%;
+    }
+    //Front Logo & arrow styling
+    .front-logo {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    button.splide__arrow.splide__arrow--prev {
+        left: 2em;
+        top: 50%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 0.5px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    button.splide__arrow.splide__arrow--next {
+        right: 2em;
+        top: 50%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 0.5px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    //De Makers & eventuele pop-up (optioneel)
+    .btn-julius {
+        position: absolute;
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        outline: inherit;
+        filter: brightness(0.6);
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+            width: 80%;
+        }
+    }
+    .content-details-two {
+        position: absolute;
+        width: 70%;
+        opacity: 0;
+        top: 15%;
+        // right: 50%;
+        -webkit-transform: translate(25%, 70%);
+        -moz-transform: translate(25%, 70%);
+        transform: translate(25%, 70%);
+        -webkit-transition: all 1.2 ease-in-out 1.2s;
+        -moz-transition: all 1.2 ease-in-out 1.2s;
+        transition: all 1.2 ease-in-out 1.2s;
+    }
+    .content:hover .content-details-two {
+        opacity: 0.9;
+        img {
+            width: 100%;
+        }
+    }
+    //contact card & arrows Contact Ons
+    .contact-card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    .contact-links {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        right: 1rem;
+        ul {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            text-align: center;
+            li:nth-child(1) > a {
+                color: #f2a2ba;
+                text-decoration: none;
+            }
+            li:nth-child(2) > a {
+                color: #e95c47;
+                text-decoration: none;
+            }
+        }
+        ul > li:nth-child(1) {
+            margin-top: 2.5rem;
+        }
+        ul > li:nth-child(2) {
+            margin-top: 15px;
+        }
+    }
+    #home > a > div.arrow-down {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 80%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        svg {
+            fill: #de99a8;
+            stroke: #2a2a2a;
+            stroke-width: 1px;
+            transform: rotate(90deg);
+        }
+    }
+    #home > a > div.uitleg {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 90%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #de99a8;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .contact-ons {
+        display: none;
+    }
+    .makers {
+        display: none;
+    }
+    .contact-ons-links {
+        display: none;
+    }
+    .home-arrow {
+        display: none;
+    }
+    .makers-rechts {
+        display: none;
+    }
+    .home-arrow-links {
+        display: none;
+    }
+    .lineaal {
+        position: absolute;
+        width: 150%;
+        left: 2.8%;
+    }
+    //Front Logo & arrow styling
+    .front-logo {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    button.splide__arrow.splide__arrow--prev {
+        left: 3em;
+        top: 50%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 0.5px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    button.splide__arrow.splide__arrow--next {
+        right: 3em;
+        top: 50%;
+        svg {
+            fill: #479082;
+            stroke: #2a2a2a;
+            stroke-width: 0.5px;
+            &:hover {
+                fill: #de99a8;
+                transition: 300ms ease-in-out;
+            }
+        }
+    }
+    //De Makers & eventuele pop-up (optioneel)
+    .btn-julius {
+        position: absolute;
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        outline: inherit;
+        filter: brightness(0.6);
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+            width: 80%;
+        }
+    }
+    .content-details-two {
+        position: absolute;
+        width: 45%;
+        opacity: 0;
+        top: 15%;
+        // right: 50%;
+        -webkit-transform: translate(10%, 25%);
+        -moz-transform: translate(10%, 25%);
+        transform: translate(10%, 25%);
+        -webkit-transition: all 1.2 ease-in-out 1.2s;
+        -moz-transition: all 1.2 ease-in-out 1.2s;
+        transition: all 1.2 ease-in-out 1.2s;
+    }
+    .content:hover .content-details-two {
+        opacity: 0.9;
+        img {
+            width: 100%;
+        }
+    }
+    //contact card & arrows Contact Ons
+    .contact-card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        img {
+            width: 100%;
+        }
+    }
+    .contact-links {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        right: 1rem;
+        ul {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            text-align: center;
+            li:nth-child(1) > a {
+                color: #f2a2ba;
+                text-decoration: none;
+            }
+            li:nth-child(2) > a {
+                color: #e95c47;
+                text-decoration: none;
+            }
+        }
+        ul > li:nth-child(1) {
+            margin-top: 2.5rem;
+        }
+        ul > li:nth-child(2) {
+            margin-top: 15px;
+        }
+    }
+    #home > a > div.arrow-down {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 80%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        svg {
+            fill: #de99a8;
+            stroke: #2a2a2a;
+            stroke-width: 1px;
+            transform: rotate(90deg);
+        }
+    }
+    #home > a > div.uitleg {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 90%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #de99a8;
+        }
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .lineaal {
         position: absolute;
@@ -206,6 +570,7 @@
     }
     .contact-ons {
         position: absolute;
+        display: flex;
         top: 50%;
         right: 1%;
         transform: rotate(-90deg);
@@ -220,6 +585,7 @@
     }
     .makers {
         position: absolute;
+        display: flex;
         top: 50%;
         left: 2%;
         transform: rotate(90deg);
@@ -281,9 +647,10 @@
             cursor: pointer;
         }
     }
-    
+
     .contact-ons-links {
         position: absolute;
+        display: flex;
         top: 50%;
         left: 1%;
         transform: rotate(90deg);
@@ -298,6 +665,7 @@
     }
     .home-arrow {
         position: absolute;
+        display: flex;
         top: 50%;
         right: 4%;
         transform: rotate(-90deg);
@@ -381,6 +749,7 @@
     }
     .makers-rechts {
         position: absolute;
+        display: flex;
         top: 50%;
         right: 2%;
         transform: rotate(-90deg);
@@ -395,6 +764,7 @@
     }
     .home-arrow-links {
         position: absolute;
+        display: flex;
         top: 50%;
         left: 4%;
         transform: rotate(90deg);
@@ -415,7 +785,7 @@
         justify-content: center;
         top: 82%;
         left: 50%;
-        width: 100%;
+        width: auto;
         transform: translate(-50%, -50%);
         svg {
             fill: #de99a8;
@@ -435,7 +805,7 @@
         justify-content: center;
         top: 90%;
         left: 50%;
-        width: 100%;
+        width: auto;
         transform: translate(-50%, -50%);
         h3 {
             font-family: "Roboto", sans-serif;

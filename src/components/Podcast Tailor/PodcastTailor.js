@@ -21,7 +21,7 @@ export default function PodcastTailor() {
             <nav className="nav-container-uitleg">
                 <ul className="buttons-left-uitleg">
                     <li><a href="#home" className="button-home-left">Home</a></li>
-                    <li><a href="#product-page" className="button-podcast">De Podcasts</a></li>
+                    <li><a href="#product-page" className="button-podcast-uitleg">De Podcasts</a></li>
                 </ul>
                 <ul className="buttons-mid-right-uitleg">
                     <li><button className="button-home-middle-uitleg">wat is de podcast tailor?</button></li>

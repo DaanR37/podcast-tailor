@@ -12,7 +12,7 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 1280px) and (orientation: portrait) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
     .nav-container {
         position: absolute;
         display: flex;
@@ -48,13 +48,99 @@
         text-transform: uppercase;
         background: none;
         border: none;
+        color: #292a2a;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .nav-container {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: 1.5%;
+        top: 3%;
+    }
+    .buttons-left {
+        display: none;
+    }
+    .button-home-middle {
+        display: none;
+    }
+    .buttons-mid-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .mobile-logo {
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+        left: 3%;
+        img {
+            width: 70%;
+        }
+    }
+    .button-aanvraag {
+        position: relative;
+        right: 1rem;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        color: #292a2a;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .nav-container {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        top: 3%;
+    }
+    .buttons-left {
+        display: none;
+    }
+    .button-home-middle {
+        display: none;
+    }
+    .buttons-mid-right {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .mobile-logo {
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        width: 35%;
+        left: 3%;
+        img {
+            width: 70%;
+        }
+    }
+    .button-aanvraag {
+        position: relative;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        color: #292a2a;
+        right: 15%;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .nav-container {
-        height: 1.5%;
-        top: 4%;
+        top: 3%;
+        height: 40px;
     }
     .mobile-logo {
         display: none;
@@ -100,6 +186,7 @@
         text-transform: uppercase;
         background: none;
         border: none;
+        display: flex;
     }
     .button-aanvraag {
         position: relative;
