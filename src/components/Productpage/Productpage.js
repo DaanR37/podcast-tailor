@@ -99,7 +99,7 @@ export default function Productpage() {
                     <ul>
                         <li>
                             <a
-                                href="/"
+                                href="https://www.instagram.com/podcast_tailor/"
                                 target="_blank"
                                 rel="noreferrer"
                             >

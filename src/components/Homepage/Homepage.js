@@ -123,7 +123,7 @@ const Homepage = () => {
                         />
                         <div className="contact-links">
                             <ul>
-                                <li><a href="mailto:info@podcast-tailor.com" target="_blank" rel="noreferrer">info@podcast-tailor.com</a></li>
+                                <li><a href="mailto:info@podcast-tailor.nl" target="_blank" rel="noreferrer">info@podcast-tailor.nl</a></li>
 
                                 <li><a href="tel:0681476083" target="_blank" rel="noreferrer">+31681476083</a></li>
                             </ul>
