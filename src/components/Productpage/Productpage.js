@@ -70,6 +70,18 @@ export default function Productpage() {
                 </motion.button>
             </div>
 
+            <div className="audio-fragments">
+                <audio controls>
+                    <source src="audio/debby 65.wav" type="audio/wav"></source>
+                </audio>
+                <audio controls>
+                    <source src="audio/joey.wav" type="audio/wav"></source>
+                </audio>
+                <audio controls>
+                    <source src="audio/ida op goal.mpeg" type="audio/mpeg"></source>
+                </audio>
+            </div>
+
             <div className="aanvraag-knop">
                 <motion.button data-tf-slider="QInKKEpl" data-tf-width="550"
                     whileHover={{

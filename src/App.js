@@ -18,7 +18,7 @@ function App() {
       debug={true}
       location="bottom"
       style={{ background: '#20b2aac7', fontSize: '18px', textAlign: 'center' }}
-      buttonStyle={{ color: '#000', background: '#fff', fontSize: '18px' }}
+      buttonStyle={{ color: '#000', background: '#fff', fontSize: '18px', borderRadius: '5px' }}
       buttonText="prima!"
       expires={365}
       >
