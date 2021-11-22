@@ -1,9 +1,13 @@
 import React from 'react'
 import "./productpage.scss";
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
+import AudioPlayer from './Audioplayer/AudioPlayer';
+import AudioPlayerJoey from './Audioplayerjoey/AudioPlayerJoey';
+import AudioPlayerIda from './Audioplayerida/AudioPlayerIda';
 
 export default function Productpage() {
+
     return (
         <section id="product-page">
             <div className="lineaal">
@@ -27,75 +31,42 @@ export default function Productpage() {
             </nav>
 
             <div className="product-cards-container">
-                <motion.button
-                    whileHover={{
-                        scale: 1.2,
-                        // originX: 0,
-                        textShadow: "0px 0px 2px rgb(255,255,255)"
-                    }}
-                    transition={{ type: 'spring', stiffness: 100 }}
-                >
+                <div className="button-small">
                     <img
                         src="images/Pakket-S.png"
                         alt="pakket een"
                     />
-                </motion.button>
-
-                <motion.button
-                    whileHover={{
-                        scale: 1.2,
-                        // originX: 0,
-                        textShadow: "0px 0px 2px rgb(255,255,255)"
-                    }}
-                    transition={{ type: 'spring', stiffness: 100 }}
-                >
+                    <div className="audio-player-debby">
+                        <AudioPlayer />
+                    </div>
+                </div>
+                <div className="button-medium">
                     <img
                         src="images/Pakket-M.png"
                         alt="pakket twee"
                     />
-                </motion.button>
-
-                <motion.button
-                    whileHover={{
-                        scale: 1.2,
-                        // originX: 0.6,
-                        textShadow: "0px 0px 2px rgb(255,255,255)"
-                    }}
-                    transition={{ type: 'spring', stiffness: 100 }}
-                >
+                    <div className="audio-player-joey">
+                        <AudioPlayerJoey />
+                    </div>
+                </div>
+                <div className="button-large">
                     <img
                         src="images/Pakket-L.png"
                         alt="pakket een"
                     />
-                </motion.button>
-            </div>
-
-            <div className="audio-fragments">
-                <audio controls>
-                    <source src="audio/debby 65.wav" type="audio/wav"></source>
-                </audio>
-                <audio controls>
-                    <source src="audio/joey.wav" type="audio/wav"></source>
-                </audio>
-                <audio controls>
-                    <source src="audio/ida op goal.mpeg" type="audio/mpeg"></source>
-                </audio>
+                    <div className="audio-player-ida">
+                        <AudioPlayerIda />
+                    </div>
+                </div>
             </div>
 
             <div className="aanvraag-knop">
-                <motion.button data-tf-slider="QInKKEpl" data-tf-width="550"
-                    whileHover={{
-                        scale: 1.1,
-                        // originX: 0.6,
-                        textShadow: "0px 0px 2px rgb(255,255,255)"
-                    }}
-                    transition={{ type: 'spring', stiffness: 100 }}
-                >
+                <button data-tf-slider="QInKKEpl" data-tf-width="550">
                     <img
                         src="images/Doe Aanvraag.png"
                         alt="doe aanvraag"
                     />
-                </motion.button>
+                </button>
             </div>
 
             <footer className="footer-container">

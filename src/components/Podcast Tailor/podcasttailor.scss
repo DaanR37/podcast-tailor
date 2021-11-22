@@ -238,30 +238,28 @@
         position: absolute;
         display: flex;
         top: 9%;
-        width: 100%;
+        width: 100vw;
         height: 40px;
         background-color: #f3a2bb;
         z-index: 1;
-    }
-    .button-podcast-uitleg {
-        display: none;
     }
     .buttons-left-uitleg {
         position: relative;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         list-style-type: none;
         text-transform: uppercase;
         font-family: "Roboto", sans-serif;
-        width: 20vw;
-        right: 0.3%;
+        width: 20%;
+        right: 1%;
         a {
             color: #2a2a2a;
-            font-size: 20px;
+            font-size: 17px;
             font-weight: 600;
-            letter-spacing: 0.1em;
+            // letter-spacing: 0.1em;
             text-decoration: none;
+            margin-right: 5px;
             &:hover {
                 color: #fffffe;
                 transition: 400ms ease-in-out;
@@ -276,7 +274,7 @@
         list-style-type: none;
         text-transform: uppercase;
         font-family: "Roboto", sans-serif;
-        width: 80vw;
+        width: 80%;
         right: 1%;
     }
     .button-home-middle-uitleg {

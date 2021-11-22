@@ -10,9 +10,9 @@ import './index.scss';
 // import { BrowserRouter as Router } from 'react-router-dom';
 // import reportWebVitals from './reportWebVitals';
 
-class Series extends Component{
-  
-  componentDidMount(){
+class Series extends Component {
+
+  componentDidMount() {
     const popup1 = typeformEmbed.makePopup(
       'https://6f4as2q72gf.typeform.com/to/QInKKEpl',
       {
@@ -20,13 +20,13 @@ class Series extends Component{
         autoClose: 3000,
         hideHeaders: true,
         hideFooters: true,
-        onSubmit: function() {
+        onSubmit: function () {
           console.log('Typeform succesfully submitted')
         }
       }
     )
-    document.getElementById('bt-popup').addEventListener('click',function
-    (){
+    document.getElementById('bt-popup').addEventListener('click', function
+      () {
       popup1.open();
     });
 

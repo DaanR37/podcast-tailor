@@ -43,40 +43,117 @@
         width: 100%;
         top: 22.5vh;
         img {
-            display: block;
             width: 100px;
         }
-        button {
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-        button:nth-child(1) {
+    }
+    .button-small {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img {
             transform-origin: left;
             &:hover {
                 -webkit-transform: scale(2.5);
                 -ms-transform: scale(2.5);
                 transform: scale(2.5);
                 transition: 400ms ease-in-out;
+                z-index: 1;
             }
         }
-        button:nth-child(2) {
-            &:hover {
-                -webkit-transform: scale(2.5);
-                -ms-transform: scale(2.5);
-                transform: scale(2.5);
-                transition: 400ms ease-in-out;
-            }
+    }
+    .button-medium {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img:hover {
+            -webkit-transform: scale(2.5);
+            -ms-transform: scale(2.5);
+            transform: scale(2.5);
+            transition: 400ms ease-in-out;
+            z-index: 1;
         }
-        button:nth-child(3) {
+    }
+    .button-large {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img {
             transform-origin: right;
             &:hover {
                 -webkit-transform: scale(2.5);
                 -ms-transform: scale(2.5);
                 transform: scale(2.5);
                 transition: 400ms ease-in-out;
+                z-index: 1;
             }
         }
+    }
+    .audio-player-debby {
+        position: relative;
+        top: 3vh;
+        --primary: #fbc23e;
+        --secondary: #ec6946;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 28px;
+            height: 28px;
+            font-size: 12px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-joey {
+        position: relative;
+        top: 3vh;
+        --primary: #e52e2e;
+        --secondary: #f0a0ba;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 28px;
+            height: 28px;
+            font-size: 12px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-ida {
+        position: relative;
+        top: 3vh;
+        --primary: #0671b8;
+        --secondary: #fcc33e;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 28px;
+            height: 28px;
+            font-size: 12px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .play {
+        position: relative;
+        left: 1px;
     }
     .aanvraag-knop {
         position: absolute;
@@ -185,40 +262,117 @@
         width: 100%;
         top: 22.5vh;
         img {
-            display: block;
             width: 200px;
         }
-        button {
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-        button:nth-child(1) {
+    }
+    .button-small {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img {
             transform-origin: left;
             &:hover {
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(2.5);
+                -ms-transform: scale(2.5);
+                transform: scale(2.5);
                 transition: 400ms ease-in-out;
+                z-index: 1;
             }
         }
-        button:nth-child(2) {
-            &:hover {
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
-                transition: 400ms ease-in-out;
-            }
+    }
+    .button-medium {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img:hover {
+            -webkit-transform: scale(2.5);
+            -ms-transform: scale(2.5);
+            transform: scale(2.5);
+            transition: 400ms ease-in-out;
+            z-index: 1;
         }
-        button:nth-child(3) {
+    }
+    .button-large {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img {
             transform-origin: right;
             &:hover {
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(2.5);
+                -ms-transform: scale(2.5);
+                transform: scale(2.5);
                 transition: 400ms ease-in-out;
+                z-index: 1;
             }
         }
+    }
+    .audio-player-debby {
+        position: relative;
+        top: 3vh;
+        --primary: #fbc23e;
+        --secondary: #ec6946;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 42px;
+            height: 42px;
+            font-size: 17px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-joey {
+        position: relative;
+        top: 3vh;
+        --primary: #e52e2e;
+        --secondary: #f0a0ba;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 42px;
+            height: 42px;
+            font-size: 17px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-ida {
+        position: relative;
+        top: 3vh;
+        --primary: #0671b8;
+        --secondary: #fcc33e;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 42px;
+            height: 42px;
+            font-size: 17px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .play {
+        position: relative;
+        left: 2px;
     }
     .aanvraag-knop {
         position: absolute;
@@ -385,47 +539,124 @@
         width: 100%;
         top: 22.5vh;
         img {
-            display: block;
             width: 200px;
         }
-        button {
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-        button:nth-child(1) {
+    }
+    .button-small {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img {
             transform-origin: left;
             &:hover {
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(2);
+                -ms-transform: scale(2);
+                transform: scale(2);
                 transition: 400ms ease-in-out;
+                z-index: 1;
             }
         }
-        button:nth-child(2) {
-            &:hover {
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
-                transition: 400ms ease-in-out;
-            }
+    }
+    .button-medium {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img:hover {
+            -webkit-transform: scale(2);
+            -ms-transform: scale(2);
+            transform: scale(2);
+            transition: 400ms ease-in-out;
+            z-index: 1;
         }
-        button:nth-child(3) {
+    }
+    .button-large {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        img {
             transform-origin: right;
             &:hover {
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(2);
+                -ms-transform: scale(2);
+                transform: scale(2);
                 transition: 400ms ease-in-out;
+                z-index: 1;
             }
         }
+    }
+    .audio-player-debby {
+        position: relative;
+        top: 2vh;
+        --primary: #fbc23e;
+        --secondary: #ec6946;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 40px;
+            height: 40px;
+            font-size: 17px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-joey {
+        position: relative;
+        top: 2vh;
+        --primary: #e52e2e;
+        --secondary: #f0a0ba;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 40px;
+            height: 40px;
+            font-size: 17px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-ida {
+        position: relative;
+        top: 2vh;
+        --primary: #0671b8;
+        --secondary: #fcc33e;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 40px;
+            height: 40px;
+            font-size: 17px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .play {
+        position: relative;
+        left: 2px;
     }
     .aanvraag-knop {
         position: absolute;
         display: flex;
         justify-content: center;
         width: 100%;
-        top: 75vh;
+        top: 77vh;
         img {
             width: 250px;
         }
@@ -588,20 +819,102 @@
     //product cards en roze aanvraag button
     .product-cards-container {
         position: absolute;
-        // display: flex;
-        // justify-content: center;
+        display: flex;
+        justify-content: center;
         width: 100%;
         top: 22.5vh;
         img {
-            display: block;
             width: 220px;
-            margin: 0px 15px;
         }
-        button {
-            background: none;
-            border: none;
+        img:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 400ms ease-in-out;
             cursor: pointer;
         }
+    }
+    .button-small {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+    }
+    .button-medium {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+    }
+    .button-large {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+    }
+    .audio-player-debby {
+        position: relative;
+        top: 3vh;
+        --primary: #fbc23e;
+        --secondary: #ec6946;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 35px;
+            height: 35px;
+            font-size: 15px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-joey {
+        position: relative;
+        top: 3vh;
+        --primary: #e52e2e;
+        --secondary: #f0a0ba;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 35px;
+            height: 35px;
+            font-size: 15px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .audio-player-ida {
+        position: relative;
+        top: 3vh;
+        --primary: #0671b8;
+        --secondary: #fcc33e;
+        .play-button {
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+            width: 35px;
+            height: 35px;
+            font-size: 15px;
+            border-radius: 50%;
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .play {
+        position: relative;
+        left: 2px;
     }
     .aanvraag-knop {
         position: absolute;
@@ -618,23 +931,13 @@
         img {
             width: 250px;
         }
-    }
-
-    .audio-fragments {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        top: 73vh;
-        audio {
-            filter: invert(1);
-            height: 40px;
-            width: 200px;
-            margin: 0 31px;
+        img:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 400ms ease-in-out;
         }
     }
-
     //Footer & FAQ pagina & social media buttons
     .footer-container {
         position: relative;
