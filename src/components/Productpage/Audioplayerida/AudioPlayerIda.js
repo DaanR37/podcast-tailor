@@ -24,7 +24,7 @@ export default function AudioPlayerIda() {
     return (
 
         <div>
-            <audio ref={audioPlayerIda} src="audio/ida-op-goal.mpeg" type="audio/mpeg" preload="metadata"></audio>
+            <audio ref={audioPlayerIda} src="audio/ida-op-goal.wav" type="audio/wav" preload="metadata"></audio>
             <motion.button
                 whileHover={{
                     scale: 1.2,
