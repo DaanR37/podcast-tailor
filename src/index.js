@@ -7,8 +7,17 @@ import Faq from "./components/Productpage/Faq/Faq";
 import App from './App';
 import './index.scss';
 
-// import { BrowserRouter as Router } from 'react-router-dom';
-// import reportWebVitals from './reportWebVitals';
+// import ReactGA from 'react-ga';
+// import { createBrowserHistory } from 'history';
+
+// const trackingId = "UA-215291879-1";
+// ReactGA.initialize(trackingId);
+
+// const history = createBrowserHistory();
+
+// history.listen(location => {
+//   ReactGA.pageview(window.location.pathname + window.location.search)
+// });
 
 class Series extends Component {
 
@@ -32,9 +41,9 @@ class Series extends Component {
 
   }
 }
-
+// history={history}
 const routs = (
-  < BrowserRouter >
+  < BrowserRouter > 
     <div>
       <Route exact path="/" component={App} />
       <Route path="/faq" component={Faq} />
