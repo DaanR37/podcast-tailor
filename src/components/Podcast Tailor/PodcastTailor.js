@@ -32,27 +32,61 @@ export default function PodcastTailor() {
                     </li>
                 </ul>
             </nav>
+
             <div className="uitleg-tekst">
+                <h3>Met de <b>Podcast Tailor</b> maken wij <b>podcasts op maat</b>.
+                    <br></br>
+                    We leggen altijd <b>persoonlijke verhalen</b> vast die je terug
+                    <br></br>
+                    kunt luisteren, <b>waar en wanneer</b> je maar wilt.
+                    <br></br>
+                    <br></br>
+                    Een <b>dierbaar cadeau</b> voor een <b>broer of zus</b> die
+                    <br></br>
+                    dertig wordt, een goede <b>vriend of vriendin</b> die naar het
+                    <br></br>
+                    buitenland verhuist of om de <b>levensverhalen</b> van
+                    <br></br>
+                    je <b>opa of oma</b> voorgoed vast te leggen.
+                    <br></br>
+                    <br></br>
+                    De <b>prijs</b> voor een podcast op maat begint vanaf <b>850 euro</b>.
+                    <br></br>
+                    Doe een <b>aanvraag</b> en <b>kom langs</b> bij ons in de studio!
+                </h3>
+            </div>
+
+            <div className="aanvraag-knop">
+                <button data-tf-slider="QInKKEpl" data-tf-width="550">
+                    <img
+                        src="images/Aanvraag-button.png"
+                        alt="doe aanvraag"
+                    />
+                </button>
+            </div>
+
+            {/* <div className="uitleg-tekst">
                 <img
-                    src="images/uitleg-tekst.png"
+                    src="images/uitleg-tekst-nieuw.png"
                     alt="uitleg tekst"
                 />
-            </div>
-            <div className="stappenplan">
+            </div> */}
+
+            {/* <div className="stappenplan">
                 <img
                     src="images/uitleg-stappenplan.png"
                     alt="stappenplan"
                 />
-            </div>
+            </div> */}
 
-            <div className="steps-container">
+            {/* <div className="steps-container">
                 <ul>
 
                     <li>
                         <div className="content">
-                            <button>
-                                {/* <div className="content-overlay"></div> */}
-                                <img
+                            <button> */}
+            {/* <div className="content-overlay"></div> */}
+            {/* <img
                                     className="content-image"
                                     src="images/uitleg-1.png"
                                     alt="step one"
@@ -66,9 +100,9 @@ export default function PodcastTailor() {
                                 </div>
                             </button>
                         </div>
-                    </li>
+                    </li> */}
 
-                    <li>
+            {/* <li>
                         <div className="content">
                             <button>
                                 <img
@@ -83,9 +117,9 @@ export default function PodcastTailor() {
                                 </div>
                             </button>
                         </div>
-                    </li>
+                    </li> */}
 
-                    <li>
+            {/* <li>
                         <div className="content">
                             <button>
                                 <img
@@ -100,9 +134,9 @@ export default function PodcastTailor() {
                                 </div>
                             </button>
                         </div>
-                    </li>
+                    </li> */}
 
-                    <li>
+            {/* <li>
                         <div className="content">
                             <button>
                                 <img
@@ -117,9 +151,9 @@ export default function PodcastTailor() {
                                 </div>
                             </button>
                         </div>
-                    </li>
+                    </li> */}
 
-                    <li>
+            {/* <li>
                         <div className="content">
                             <button>
                                 <img
@@ -135,8 +169,8 @@ export default function PodcastTailor() {
                             </button>
                         </div>
                     </li>
-                </ul>
-            </div>
+                </ul> */}
+            {/* </div> */}
             <a href="#product-page" alt="product pagina">
                 <div className="arrow-down-tailor">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
@@ -144,7 +178,7 @@ export default function PodcastTailor() {
                     </svg>
                 </div>
                 <div className="uitleg-tailor">
-                    <h3>de podcasts</h3>
+                    <h3>Voorbeelden</h3>
                 </div>
             </a>
         </section>

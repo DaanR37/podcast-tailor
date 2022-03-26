@@ -1,6 +1,5 @@
 import React from 'react'
 import "./productpage.scss";
-// import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
 import AudioPlayer from './Audioplayer/AudioPlayer';
 import AudioPlayerJoey from './Audioplayerjoey/AudioPlayerJoey';
@@ -21,7 +20,7 @@ export default function Productpage() {
                     <li><a href="#home" className="button-home-left">Home</a></li>
                 </ul>
                 <ul className="buttons-mid-right-podcasts">
-                    <li><button className="button-home-middle-podcasts">de podcasts</button></li>
+                    <li><button className="button-home-middle-podcasts">Voorbeelden</button></li>
                     <li>
                         <button className="button-aanvraag-podcasts" data-tf-slider="QInKKEpl" data-tf-width="550">
                             Doe een aanvraag
@@ -33,7 +32,7 @@ export default function Productpage() {
             <div className="product-cards-container">
                 <div className="button-small">
                     <img
-                        src="images/Pakket-S.png"
+                        src="images/Deborah-Card.png"
                         alt="pakket een"
                     />
                     <div className="audio-player-debby">
@@ -42,7 +41,7 @@ export default function Productpage() {
                 </div>
                 <div className="button-medium">
                     <img
-                        src="images/Pakket-M.png"
+                        src="images/Joey-Card.png"
                         alt="pakket twee"
                     />
                     <div className="audio-player-joey">
@@ -51,22 +50,13 @@ export default function Productpage() {
                 </div>
                 <div className="button-large">
                     <img
-                        src="images/Pakket-L.png"
+                        src="images/Ida-Card.png"
                         alt="pakket een"
                     />
                     <div className="audio-player-ida">
                         <AudioPlayerIda />
                     </div>
                 </div>
-            </div>
-
-            <div className="aanvraag-knop">
-                <button data-tf-slider="QInKKEpl" data-tf-width="550">
-                    <img
-                        src="images/Doe Aanvraag.png"
-                        alt="doe aanvraag"
-                    />
-                </button>
             </div>
 
             <footer className="footer-container">

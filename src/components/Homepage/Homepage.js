@@ -100,7 +100,7 @@ const Homepage = () => {
                 <SplideSlide>
                     <div className="front-logo">
                         <img
-                            src="images/Podcast-Tailor.gif"
+                            src="images/Podcast-Tailor-Geel.gif"
                             alt="logo"
                         />
                     </div>

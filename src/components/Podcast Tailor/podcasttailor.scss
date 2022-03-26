@@ -15,70 +15,30 @@
         justify-content: center;
         width: 100%;
         top: 18%;
-        img {
-            width: 85%;
+        // left: 50%;
+        // transform: translate(-50%);
+        h3 {
+            text-align: center;
+            color: #f2a2ba;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.02rem;
+            line-height: 1.3rem;
         }
     }
-    .stappenplan {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 29%;
-        img {
-            width: 45%;
-        }
-    }
-    .steps-container {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 37vh;
-        right: 1.2rem;
-        li {
-            float: left;
-            margin: 0px auto;
-            list-style-type: none;
-            img {
-                display: block;
-                border: none;
-                opacity: 0.7;
-                width: 36px;
-                height: auto;
-            }
-            button {
-                background: none;
-                border: none;
-                cursor: pointer;
-            }
-        }
-    }
-    .content-details {
+    .aanvraag-knop {
         position: absolute;
-        z-index: 1;
-        background-color: #292a2a;
-        width: 70%;
-        opacity: 0;
-        -webkit-transform: translate(30%, 150%);
-        -moz-transform: translate(30%, 150%);
-        transform: translate(30%, 150%);
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        -moz-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.5s ease-in-out 0s;
-    }
-    .content:hover .content-details {
-        top: 30%;
-        left: 11.2%;
-        opacity: 1;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 60vh;
         img {
-            width: 65%;
+            width: 240px;
         }
     }
-    .fadeIn-bottom {
-        left: 30%;
-        right: 30%;
-        opacity: 0;
+    #podcast-tailor > div.aanvraag-knop > button {
+        background: none;
+        border: none;
     }
     //Arrow down Podcast Tailor Page
     #podcast-tailor > a > div.arrow-down-tailor {
@@ -90,7 +50,7 @@
         width: 100%;
         transform: translate(-50%, -50%);
         svg {
-            fill: #de99a8;
+            fill: #0f70b8;
             stroke: #2a2a2a;
             stroke-width: 2px;
             transform: rotate(90deg);
@@ -114,12 +74,12 @@
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: #de99a8;
+            color: #0f70b8;
         }
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (orientation: portrait) {
     .nav-container-uitleg {
         display: none;
     }
@@ -129,70 +89,28 @@
         justify-content: center;
         width: 100%;
         top: 18%;
-        img {
-            width: 85%;
+        h3 {
+            text-align: center;
+            color: #f2a2ba;
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: 0.03rem;
+            line-height: 1.9rem;
         }
     }
-    .stappenplan {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 29%;
-        img {
-            width: 40%;
-        }
-    }
-    .steps-container {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 37vh;
-        right: 1.2rem;
-        li {
-            float: left;
-            margin: 0px 10px;
-            list-style-type: none;
-            img {
-                display: block;
-                border: none;
-                opacity: 0.7;
-                width: 75px;
-                height: auto;
-            }
-            button {
-                background: none;
-                border: none;
-                cursor: pointer;
-            }
-        }
-    }
-    .content-details {
+    .aanvraag-knop {
         position: absolute;
-        z-index: 1;
-        background-color: #292a2a;
-        width: 70%;
-        opacity: 0;
-        -webkit-transform: translate(25%, 150%);
-        -moz-transform: translate(25%, 150%);
-        transform: translate(25%, 150%);
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        -moz-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.5s ease-in-out 0s;
-    }
-    .content:hover .content-details {
-        top: 30%;
-        left: 11.2%;
-        opacity: 1;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 60vh;
         img {
-            width: 65%;
+            width: 330px;
         }
     }
-    .fadeIn-bottom {
-        left: 30%;
-        right: 30%;
-        opacity: 0;
+    #podcast-tailor > div.aanvraag-knop > button {
+        background: none;
+        border: none;
     }
     //Arrow down Podcast Tailor Page
     #podcast-tailor > a > div.arrow-down-tailor {
@@ -204,7 +122,7 @@
         width: 100%;
         transform: translate(-50%, -50%);
         svg {
-            fill: #de99a8;
+            fill: #0f70b8;
             stroke: #2a2a2a;
             stroke-width: 1px;
             transform: rotate(90deg);
@@ -228,7 +146,7 @@
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: #de99a8;
+            color: #0f70b8;
         }
     }
 }
@@ -306,78 +224,35 @@
             transition: 400ms ease-in-out;
         }
     }
-
     .uitleg-tekst {
         position: relative;
         display: flex;
         justify-content: center;
         width: 100%;
         top: 21%;
-        img {
-            width: 75%;
+        h3 {
+            text-align: center;
+            color: #f2a2ba;
+            font-size: 23px;
+            font-weight: 400;
+            letter-spacing: 0.05rem;
         }
     }
-    .stappenplan {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 21%;
-        img {
-            width: 30%;
-        }
-    }
-    .steps-container {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 23vh;
-        right: 1.2rem;
-        li {
-            float: left;
-            margin: 0px 25px;
-            list-style-type: none;
-            img {
-                display: block;
-                border: none;
-                opacity: 0.7;
-                width: 60px;
-                height: auto;
-            }
-            button {
-                background: none;
-                border: none;
-                cursor: pointer;
-            }
-        }
-    }
-    .content-details {
+    .aanvraag-knop {
         position: absolute;
-        z-index: 1;
-        background-color: #292a2a;
-        width: 70%;
-        opacity: 0;
-        -webkit-transform: translate(25%, 70%);
-        -moz-transform: translate(25%, 70%);
-        transform: translate(25%, 70%);
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        -moz-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.5s ease-in-out 0s;
-    }
-    .content:hover .content-details {
-        top: 30%;
-        left: 11.2%;
-        opacity: 1;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 70vh;
         img {
-            width: 65%;
+            width: 270px;
         }
     }
-    .fadeIn-bottom {
-        left: 30%;
-        right: 30%;
-        opacity: 0;
+    #podcast-tailor > div.aanvraag-knop > button {
+        background: none;
+        border: none;
     }
+
     //Arrow down Podcast Tailor Page
     #podcast-tailor > a > div.arrow-down-tailor {
         position: absolute;
@@ -388,7 +263,7 @@
         width: 100%;
         transform: translate(-50%, -50%);
         svg {
-            fill: #de99a8;
+            fill: #0f70b8;
             stroke: #2a2a2a;
             stroke-width: 1px;
             transform: rotate(90deg);
@@ -412,7 +287,7 @@
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: #de99a8;
+            color: #0f70b8;
         }
     }
 }
@@ -497,75 +372,37 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        top: 25%;
-        img {
-            width: 46%;
+        top: 21%;
+        font-family: "Roboto", sans-serif;
+        h3 {
+            text-align: center;
+            color: #f2a2ba;
+            font-size: 23px;
+            font-weight: 400;
+            letter-spacing: 0.05rem;
         }
     }
-    .stappenplan {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 28%;
-        img {
-            width: 20%;
-        }
-    }
-    .steps-container {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 31vh;
-        right: 1.2rem;
-        li {
-            float: left;
-            margin: 0px 45px;
-            list-style-type: none;
-            img {
-                display: block;
-                border: none;
-                opacity: 0.7;
-                width: 55px;
-                height: auto;
-            }
-            img:hover {
-                opacity: 1;
-                transition: 400ms ease-in-out;
-            }
-            button {
-                background: none;
-                border: none;
-                cursor: pointer;
-            }
-        }
-    }
-    .content-details {
+    .aanvraag-knop {
         position: absolute;
-        z-index: 1;
-        background-color: #292a2a;
-        width: 40%;
-        opacity: 0;
-        -webkit-transform: translate(68%, 70%);
-        -moz-transform: translate(68%, 70%);
-        transform: translate(68%, 70%);
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        -moz-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.5s ease-in-out 0s;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        top: 68vh;
     }
-    .content:hover .content-details {
-        top: 30%;
-        left: 11.2%;
-        opacity: 1;
+    #podcast-tailor > div.aanvraag-knop > button {
+        position: relative;
+        background: none;
+        border: none;
+        cursor: pointer;
         img {
-            width: 65%;
+            width: 330px;
         }
-    }
-    .fadeIn-bottom {
-        left: 30%;
-        right: 30%;
-        opacity: 0;
+        img:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 400ms ease-in-out;
+        }
     }
 
     //Arrow down Podcast Tailor Page
@@ -578,7 +415,7 @@
         width: 100%;
         transform: translate(-50%, -50%);
         svg {
-            fill: #de99a8;
+            fill: #0f70b8;
             stroke: #2a2a2a;
             stroke-width: 2px;
             transform: rotate(90deg);
@@ -602,7 +439,75 @@
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: #de99a8;
+            color: #0f70b8;
         }
     }
 }
+
+/// Stappenplan
+
+// .stappenplan {
+//     position: relative;
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     top: 28%;
+//     img {
+//         width: 20%;
+//     }
+// }
+// .steps-container {
+//     position: relative;
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     top: 31vh;
+//     right: 1.2rem;
+//     li {
+//         float: left;
+//         margin: 0px 45px;
+//         list-style-type: none;
+//         img {
+//             display: block;
+//             border: none;
+//             opacity: 0.7;
+//             width: 55px;
+//             height: auto;
+//         }
+//         img:hover {
+//             opacity: 1;
+//             transition: 400ms ease-in-out;
+//         }
+//         button {
+//             background: none;
+//             border: none;
+//             cursor: pointer;
+//         }
+//     }
+// }
+// .content-details {
+//     position: absolute;
+//     z-index: 1;
+//     background-color: #292a2a;
+//     width: 40%;
+//     opacity: 0;
+//     -webkit-transform: translate(68%, 70%);
+//     -moz-transform: translate(68%, 70%);
+//     transform: translate(68%, 70%);
+//     -webkit-transition: all 0.5s ease-in-out 0s;
+//     -moz-transition: all 0.5s ease-in-out 0s;
+//     transition: all 0.5s ease-in-out 0s;
+// }
+// .content:hover .content-details {
+//     top: 30%;
+//     left: 11.2%;
+//     opacity: 1;
+//     img {
+//         width: 65%;
+//     }
+// }
+// .fadeIn-bottom {
+//     left: 30%;
+//     right: 30%;
+//     opacity: 0;
+// }

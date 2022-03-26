@@ -41,9 +41,9 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        top: 22.5vh;
+        top: 26vh;
         img {
-            width: 100px;
+            width: 110px;
         }
     }
     .button-small {
@@ -155,20 +155,7 @@
         position: relative;
         left: 1px;
     }
-    .aanvraag-knop {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 69vh;
-        img {
-            width: 250px;
-        }
-    }
-    #product-page > div.aanvraag-knop > button {
-        background: none;
-        border: none;
-    }
+   
     //Footer & FAQ pagina & social media buttons
     .footer-container {
         position: relative;
@@ -250,7 +237,7 @@
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (orientation: portrait) {
     .nav-container-podcasts {
         display: none;
     }
@@ -374,20 +361,7 @@
         position: relative;
         left: 2px;
     }
-    .aanvraag-knop {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 69vh;
-        img {
-            width: 350px;
-        }
-    }
-    #product-page > div.aanvraag-knop > button {
-        background: none;
-        border: none;
-    }
+    
     //Footer & FAQ pagina & social media buttons
     .footer-container {
         position: relative;
@@ -537,7 +511,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        top: 22.5vh;
+        top: 24.5vh;
         img {
             width: 200px;
         }
@@ -547,7 +521,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30%;
+        width: 22%;
         img {
             transform-origin: left;
             &:hover {
@@ -564,7 +538,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30%;
+        width: 22%;
         img:hover {
             -webkit-transform: scale(2);
             -ms-transform: scale(2);
@@ -578,7 +552,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30%;
+        width: 22%;
         img {
             transform-origin: right;
             &:hover {
@@ -651,20 +625,7 @@
         position: relative;
         left: 2px;
     }
-    .aanvraag-knop {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        top: 77vh;
-        img {
-            width: 250px;
-        }
-    }
-    #product-page > div.aanvraag-knop > button {
-        background: none;
-        border: none;
-    }
+    
     //Footer & FAQ pagina & social media buttons
     .footer-container {
         position: relative;
@@ -822,16 +783,16 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        top: 22.5vh;
+        top: 26vh;
         img {
-            width: 220px;
+            width: 230px;
+            cursor: pointer;
         }
         img:hover {
             -webkit-transform: scale(1.2);
             -ms-transform: scale(1.2);
             transform: scale(1.2);
             transition: 400ms ease-in-out;
-            cursor: pointer;
         }
     }
     .button-small {
@@ -839,21 +800,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 20%;
+        width: 18%;
     }
     .button-medium {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 20%;
+        width: 18%;
     }
     .button-large {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 20%;
+        width: 18%;
     }
     .audio-player-debby {
         position: relative;
@@ -916,28 +877,7 @@
         position: relative;
         left: 2px;
     }
-    .aanvraag-knop {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        top: 83vh;
-    }
-    #product-page > div.aanvraag-knop > button {
-        position: relative;
-        background: none;
-        border: none;
-        cursor: pointer;
-        img {
-            width: 250px;
-        }
-        img:hover {
-            -webkit-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            transform: scale(1.2);
-            transition: 400ms ease-in-out;
-        }
-    }
+    
     //Footer & FAQ pagina & social media buttons
     .footer-container {
         position: relative;
