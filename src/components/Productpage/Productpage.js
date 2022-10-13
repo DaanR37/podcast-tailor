@@ -6,7 +6,6 @@ import AudioPlayerJoey from './Audioplayerjoey/AudioPlayerJoey';
 import AudioPlayerIda from './Audioplayerida/AudioPlayerIda';
 
 export default function Productpage() {
-
     return (
         <section id="product-page">
             <div className="lineaal">
