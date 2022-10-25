@@ -1,0 +1,300 @@
+#home {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    h3 {
+        font-family: "Roboto Condensed", sans-serif;
+    }
+}
+.container-logo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+}
+.podcast-buttons button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    h3 {
+        margin: 0;
+        // font-weight: 400;
+    }
+}
+.front-logo {
+    img {
+        width: 100%;
+    }
+}
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-bigg-homepage {
+        display: none;
+    }
+    .navbar-small-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 40%;
+        transform: translate(-50%, -40%);
+    }
+    .front-logo {
+        width: 80vw;
+    }
+    .podcast-buttons {
+        margin-top: 10%;
+        button {
+            display: flex;
+            letter-spacing: 0.05rem;
+            margin: 2vw 0vw;
+            background-color: #d06654;
+            border-radius: 2.5px;
+        }
+        a {
+            width: 55vw;
+            height: 25px;
+            color: whitesmoke;
+            h3 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-bigg-homepage {
+        display: none;
+    }
+    .navbar-small-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 67.5%;
+        transform: translate(-50%, -67.5%);
+    }
+    .front-logo {
+        width: 40vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 7.5%;
+        button {
+            letter-spacing: 0.01rem;
+            margin: 0vw 0.1vw;
+            a {
+                width: 17vw;
+                height: 25px;
+                border-radius: 2.5px;
+                h3 {
+                    font-size: 10.5px;
+                }
+            }
+        }
+    }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
+    }
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .front-logo {
+        width: 65vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.4vw;
+            a {
+                width: 28vw;
+                height: 37.5px;
+                border-radius: 2.5px;
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
+    }
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 55%;
+        transform: translate(-50%, -55%);
+    }
+    .front-logo {
+        width: 50vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.5vw;
+            a {
+                width: 21vw;
+                height: 37.5px;
+                border-radius: 2.5px;
+                h3 {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
+    }
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 65%;
+        transform: translate(-50%, -65%);
+    }
+    .front-logo {
+        width: 45vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.6vw;
+            cursor: pointer;
+            a {
+                width: 19vw;
+                height: 45px;
+                border-radius: 2.5px;
+                // &:hover {
+                //     transform: scale(1.08);
+                //     transition: 350ms ease-in-out;
+                // }
+                h3 {
+                    font-size: 19px;
+                    &:hover {
+                        filter: invert(1);
+                        transition: 400ms ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2600px) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
+    }
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 65%;
+        transform: translate(-50%, -65%);
+    }
+    .front-logo {
+        width: 45vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.6vw;
+            cursor: pointer;
+            a {
+                width: 19vw;
+                height: 45px;
+                border-radius: 2.5px;
+                // &:hover {
+                //     transform: scale(1.08);
+                //     transition: 350ms ease-in-out;
+                // }
+                h3 {
+                    font-size: 21px;
+                    &:hover {
+                        filter: invert(1);
+                        transition: 400ms ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}
