@@ -19,11 +19,10 @@ body,
   text-rendering: optimizeLegibility;
   background-color: #f4f4f4;
 }
-body > iframe {
-  display: none;
-}
+// body > iframe {
+//   display: none;
+// }
 .lineaal {
-  // position: relative;
   max-width: 100%;
   filter: invert(1);
 }
