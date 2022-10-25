@@ -1,0 +1,345 @@
+#zakelijke-podcasts {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+}
+.container-zakelijk {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h3 {
+        text-align: center;
+        color: black;
+    }
+}
+.aanvraag-button-zakelijk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    background-color: #479082;
+    border: yellow dotted 1px;
+    border-radius: 2.5px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-bigg-zakelijke-podcasts {
+        display: none;
+    }
+    .navbar-small-zakelijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-zakelijk {
+        width: 80%;
+        margin-top: 28.5%;
+        h1 {
+            font-size: 15px;
+            color: #d16654;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 13.5px;
+            // font-weight: 400;
+            letter-spacing: 0.01rem;
+            margin-top: 15px;
+            line-height: 1.25rem;
+        }
+        img {
+            margin-top: 5px;
+        }
+        img:nth-child(3),
+        img:nth-child(5),
+        img:nth-child(7) {
+            width: 30px;
+        }
+        img:nth-child(9) {
+            width: 52.5px;
+        }
+    }
+    .aanvraag-button-zakelijk {
+        width: 175px;
+        height: 35px;
+        margin-top: 5%;
+        h1 {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-bigg-zakelijke-podcasts {
+        display: none;
+    }
+    .navbar-small-zakelijke-podcasts {
+        top: 0;
+        margin-top: 27.5%;
+    }
+    .container-zakelijk {
+        width: 60%;
+        margin-top: 12.5%;
+        h1 {
+            font-size: 15px;
+            color: #d16654;
+            // margin: 0;
+        }
+        h3 {
+            font-size: 13.5px;
+            // font-weight: 400;
+            letter-spacing: 0.03rem;
+            margin-top: 5px;
+            line-height: 1.25rem;
+        }
+        img {
+            margin-top: 7px;
+        }
+        img:nth-child(3),
+        img:nth-child(5),
+        img:nth-child(7) {
+            width: 30px;
+        }
+        img:nth-child(9) {
+            width: 50px;
+        }
+    }
+    .aanvraag-button-zakelijk {
+        width: 150px;
+        height: 30px;
+        margin-top: 2.5%;
+        h1 {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-small-zakelijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-zakelijke-podcasts {
+        top: 0;
+        // margin-top: 5%;
+    }
+    .container-zakelijk {
+        width: 60%;
+        margin-top: 20%;
+        h1 {
+            font-size: 21px;
+            color: #d16654;
+            margin-bottom: 7.5px;
+        }
+        h3 {
+            font-size: 19px;
+            // font-weight: 400;
+            letter-spacing: 0.03rem;
+            margin-top: 12.5px;
+            line-height: 1.9rem;
+        }
+        img {
+            margin-top: 10px;
+        }
+        img:nth-child(3),
+        img:nth-child(5),
+        img:nth-child(7) {
+            width: 35px;
+        }
+        img:nth-child(9) {
+            width: 55px;
+        }
+    }
+    .aanvraag-button-zakelijk {
+        width: 225px;
+        height: 40px;
+        margin-top: 8%;
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    //DISPLAY NONE
+    .navbar-small-zakelijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-zakelijke-podcasts {
+        top: 0;
+        margin-top: 5%;
+    }
+    .container-zakelijk {
+        width: 55%;
+        margin-top: 15%;
+        h1 {
+            font-size: 21px;
+            color: #d16654;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 19px;
+            font-weight: 400;
+            letter-spacing: 0.03rem;
+            margin-top: 12.5px;
+            // line-height: 1.6rem;
+        }
+        img {
+            margin-top: 5px;
+        }
+        img:nth-child(3),
+        img:nth-child(5),
+        img:nth-child(7) {
+            width: 40px;
+        }
+        img:nth-child(9) {
+            width: 60px;
+        }
+    }
+    .aanvraag-button-zakelijk {
+        width: 225px;
+        height: 40px;
+        margin-bottom: 5%;
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    //DISPLAY NONE
+    .navbar-small-zakelijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-zakelijke-podcasts {
+        top: 0;
+        margin-top: 10%;
+    }
+    .container-zakelijk {
+        width: 50%;
+        margin-top: 10%;
+        h1 {
+            font-size: 26px;
+            color: #d16654;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 23px;
+            // font-weight: 400;
+            letter-spacing: 0.04rem;
+            margin-top: 12.5px;
+            line-height: 1.6rem;
+        }
+        img {
+            margin-top: 5px;
+        }
+        img:nth-child(3),
+        img:nth-child(5),
+        img:nth-child(7) {
+            width: 42.5px;
+        }
+        img:nth-child(9) {
+            width: 65px;
+        }
+    }
+    .aanvraag-button-zakelijk {
+        width: 315px;
+        height: 52.5px;
+        margin-top: 3.5%;
+        // margin: 3% 0%;
+        cursor: pointer;
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            color: whitesmoke;
+            margin: 0;
+            &:hover {
+                filter: invert(1);
+                transition: 400ms ease-in-out;
+            }
+        }
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2600px) {
+    //DISPLAY NONE
+    .navbar-small-zakelijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-zakelijke-podcasts {
+        top: 0;
+        margin-top: 5%;
+    }
+    .container-zakelijk {
+        width: 50%;
+        margin-top: 10%;
+        h1 {
+            font-size: 26px;
+            color: #d16654;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 24px;
+            // font-weight: 400;
+            letter-spacing: 0.05rem;
+            margin-top: 12.5px;
+            line-height: 1.6rem;
+        }
+        img {
+            margin-top: 5px;
+        }
+        img:nth-child(3),
+        img:nth-child(5),
+        img:nth-child(7) {
+            width: 42.5px;
+        }
+        img:nth-child(9) {
+            width: 65px;
+        }
+    }
+    .aanvraag-button-zakelijk {
+        width: 315px;
+        height: 52.5px;
+        margin-top: 4%;
+        margin: 3% 0%;
+        cursor: pointer;
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            color: whitesmoke;
+            margin: 0;
+            &:hover {
+                filter: invert(1);
+                transition: 400ms ease-in-out;
+            }
+        }
+    }
+}

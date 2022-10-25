@@ -2,867 +2,299 @@
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #292a2a;
+    h3 {
+        font-family: "Roboto Condensed", sans-serif;
+    }
 }
-
+.container-logo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+}
+.podcast-buttons button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    h3 {
+        margin: 0;
+        // font-weight: 400;
+    }
+}
+.front-logo {
+    img {
+        width: 100%;
+    }
+}
+///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
-    .contact-ons {
+    ///DISPLAY NONE
+    .navbar-bigg-homepage {
         display: none;
     }
-    .makers {
-        display: none;
+    .navbar-small-homepage {
+        top: 0;
+        // margin-top: 35%;
     }
-    .contact-ons-links {
-        display: none;
+    ///REST OF CODE
+    .container-logo {
+        top: 40%;
+        transform: translate(-50%, -40%);
     }
-    .home-arrow {
-        display: none;
-    }
-    .makers-rechts {
-        display: none;
-    }
-    .home-arrow-links {
-        display: none;
-    }
-    .lineaal {
-        position: absolute;
-        width: 150%;
-        left: 2.8%;
-    }
-    //Front Logo & arrow styling
     .front-logo {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
+        width: 80vw;
     }
-    button.splide__arrow.splide__arrow--prev {
-        left: 1em;
-        top: 50%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 2px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
+    .podcast-buttons {
+        margin-top: 10%;
+        button {
+            display: flex;
+            letter-spacing: 0.05rem;
+            margin: 2vw 0vw;
+            background-color: #d06654;
+            border-radius: 2.5px;
+        }
+        a {
+            width: 55vw;
+            height: 25px;
+            color: whitesmoke;
+            h3 {
+                font-size: 15px;
             }
-        }
-    }
-    button.splide__arrow.splide__arrow--next {
-        right: 1em;
-        top: 50%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 2px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
-            }
-        }
-    }
-    //De Makers & eventuele pop-up (optioneel)
-    .btn-julius {
-        position: absolute;
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        outline: inherit;
-        filter: brightness(0.6);
-        width: 60%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        img {
-            width: 100%;
-        }
-    }
-    .content-details-two {
-        position: absolute;
-        width: 85%;
-        opacity: 0;
-        top: 34%;
-        right: 28%;
-        -webkit-transform: translate(25%, 70%);
-        -moz-transform: translate(25%, 70%);
-        transform: translate(25%, 70%);
-        -webkit-transition: all 1.2 ease-in-out 1.2s;
-        -moz-transition: all 1.2 ease-in-out 1.2s;
-        transition: all 1.2 ease-in-out 1.2s;
-    }
-    .content:hover .content-details-two {
-        opacity: 0.9;
-        img {
-            width: 100%;
-        }
-    }
-
-    //contact card & arrows Contact Ons
-    .contact-card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
-    }
-    .contact-links {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        right: 1rem;
-        ul {
-            list-style-type: none;
-            text-transform: uppercase;
-            font-family: "Roboto", sans-serif;
-            font-size: 10px;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            text-align: center;
-            li:nth-child(1) > a {
-                color: #f2a2ba;
-                text-decoration: none;
-            }
-            li:nth-child(2) > a {
-                color: #e95c47;
-                text-decoration: none;
-            }
-        }
-        ul > li:nth-child(1) {
-            margin-top: 2.5rem;
-        }
-        ul > li:nth-child(2) {
-            margin-top: 10px;
-        }
-    }
-    #home > a > div.arrow-down {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 80%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        svg {
-            fill: #de99a8;
-            stroke: #2a2a2a;
-            stroke-width: 3px;
-            transform: rotate(90deg);
-        }
-    }
-    #home > a > div.uitleg {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 90%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 15px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #de99a8;
         }
     }
 }
-
-@media screen and (max-width: 600px) and (orientation: landscape) {
-
-}
- 
-@media screen and (min-width: 600px) {
-    .contact-ons {
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-bigg-homepage {
         display: none;
     }
-    .makers {
-        display: none;
+    .navbar-small-homepage {
+        top: 0;
+        // margin-top: 35%;
     }
-    .contact-ons-links {
-        display: none;
+    ///REST OF CODE
+    .container-logo {
+        top: 67.5%;
+        transform: translate(-50%, -67.5%);
     }
-    .home-arrow {
-        display: none;
-    }
-    .makers-rechts {
-        display: none;
-    }
-    .home-arrow-links {
-        display: none;
-    }
-    .lineaal {
-        position: absolute;
-        width: 150%;
-        left: 2.8%;
-    }
-    //Front Logo & arrow styling
     .front-logo {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
+        width: 40vw;
     }
-    button.splide__arrow.splide__arrow--prev {
-        left: 2em;
-        top: 50%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 0.5px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
+    .podcast-buttons {
+        display: flex;
+        margin-top: 7.5%;
+        button {
+            letter-spacing: 0.01rem;
+            margin: 0vw 0.1vw;
+            a {
+                width: 17vw;
+                height: 25px;
+                border-radius: 2.5px;
+                h3 {
+                    font-size: 10.5px;
+                }
             }
         }
     }
-    button.splide__arrow.splide__arrow--next {
-        right: 2em;
-        top: 50%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 0.5px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
-            }
-        }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
     }
-    //De Makers & eventuele pop-up (optioneel)
-    .btn-julius {
-        position: absolute;
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        outline: inherit;
-        filter: brightness(0.6);
-        width: 60%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        img {
-            width: 80%;
-        }
-    }
-    .content-details-two {
-        position: absolute;
-        width: 70%;
-        opacity: 0;
-        top: 15%;
-        // right: 50%;
-        -webkit-transform: translate(25%, 70%);
-        -moz-transform: translate(25%, 70%);
-        transform: translate(25%, 70%);
-        -webkit-transition: all 1.2 ease-in-out 1.2s;
-        -moz-transition: all 1.2 ease-in-out 1.2s;
-        transition: all 1.2 ease-in-out 1.2s;
-    }
-    .content:hover .content-details-two {
-        opacity: 0.9;
-        img {
-            width: 100%;
-        }
-    }
-    //contact card & arrows Contact Ons
-    .contact-card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
-    }
-    .contact-links {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        right: 1rem;
-        ul {
-            list-style-type: none;
-            text-transform: uppercase;
-            font-family: "Roboto", sans-serif;
-            font-size: 25px;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            text-align: center;
-            li:nth-child(1) > a {
-                color: #f2a2ba;
-                text-decoration: none;
-            }
-            li:nth-child(2) > a {
-                color: #e95c47;
-                text-decoration: none;
-            }
-        }
-        ul > li:nth-child(1) {
-            margin-top: 2.5rem;
-        }
-        ul > li:nth-child(2) {
-            margin-top: 15px;
-        }
-    }
-    #home > a > div.arrow-down {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 80%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        svg {
-            fill: #de99a8;
-            stroke: #2a2a2a;
-            stroke-width: 1px;
-            transform: rotate(90deg);
-        }
-    }
-    #home > a > div.uitleg {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 90%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 25px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #de99a8;
-        }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
     }
 }
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    .contact-ons {
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
         display: none;
     }
-    .makers {
-        display: none;
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
     }
-    .contact-ons-links {
-        display: none;
+    ///REST OF CODE
+    .container-logo {
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
-    .home-arrow {
-        display: none;
-    }
-    .makers-rechts {
-        display: none;
-    }
-    .home-arrow-links {
-        display: none;
-    }
-    .lineaal {
-        position: absolute;
-        width: 150%;
-        left: 2.8%;
-    }
-    //Front Logo & arrow styling
     .front-logo {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        width: 60%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
+        width: 65vw;
     }
-    button.splide__arrow.splide__arrow--prev {
-        left: 3em;
-        top: 50%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 0.5px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.4vw;
+            a {
+                width: 28vw;
+                height: 37.5px;
+                border-radius: 2.5px;
+                h3 {
+                    font-size: 16px;
+                }
             }
         }
     }
-    button.splide__arrow.splide__arrow--next {
-        right: 3em;
-        top: 50%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 0.5px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
-            }
-        }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
     }
-    //De Makers & eventuele pop-up (optioneel)
-    .btn-julius {
-        position: absolute;
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        outline: inherit;
-        filter: brightness(0.6);
-        width: 50%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        img {
-            width: 80%;
-        }
-    }
-    .content-details-two {
-        position: absolute;
-        width: 45%;
-        opacity: 0;
-        top: 15%;
-        // right: 50%;
-        -webkit-transform: translate(10%, 25%);
-        -moz-transform: translate(10%, 25%);
-        transform: translate(10%, 25%);
-        -webkit-transition: all 1.2 ease-in-out 1.2s;
-        -moz-transition: all 1.2 ease-in-out 1.2s;
-        transition: all 1.2 ease-in-out 1.2s;
-    }
-    .content:hover .content-details-two {
-        opacity: 0.9;
-        img {
-            width: 100%;
-        }
-    }
-    //contact card & arrows Contact Ons
-    .contact-card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 50%;
-        left: 50%;
-        width: 60%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
-    }
-    .contact-links {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        right: 1rem;
-        ul {
-            list-style-type: none;
-            text-transform: uppercase;
-            font-family: "Roboto", sans-serif;
-            font-size: 25px;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            text-align: center;
-            li:nth-child(1) > a {
-                color: #f2a2ba;
-                text-decoration: none;
-            }
-            li:nth-child(2) > a {
-                color: #e95c47;
-                text-decoration: none;
-            }
-        }
-        ul > li:nth-child(1) {
-            margin-top: 2.5rem;
-        }
-        ul > li:nth-child(2) {
-            margin-top: 15px;
-        }
-    }
-    #home > a > div.arrow-down {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 80%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        svg {
-            fill: #de99a8;
-            stroke: #2a2a2a;
-            stroke-width: 1px;
-            transform: rotate(90deg);
-        }
-    }
-    #home > a > div.uitleg {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 90%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -50%);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 25px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #de99a8;
-        }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .lineaal {
-        position: absolute;
-        width: 95%;
-        left: 2.4%;
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
     }
-    //podcast logo & arrows Homepage
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 55%;
+        transform: translate(-50%, -55%);
+    }
     .front-logo {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 40%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
+        width: 50vw;
     }
-    .contact-ons {
-        position: absolute;
+    .podcast-buttons {
         display: flex;
-        top: 50%;
-        right: 1%;
-        transform: rotate(-90deg);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #479082;
-        }
-    }
-    .makers {
-        position: absolute;
-        display: flex;
-        top: 50%;
-        left: 2%;
-        transform: rotate(90deg);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #479082;
-        }
-    }
-    button.splide__arrow.splide__arrow--prev {
-        left: 17em;
-        top: 54%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 2px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.5vw;
+            a {
+                width: 21vw;
+                height: 37.5px;
+                border-radius: 2.5px;
+                h3 {
+                    font-size: 17px;
+                }
             }
         }
     }
-    button.splide__arrow.splide__arrow--next {
-        right: 17em;
-        top: 54%;
-        svg {
-            fill: #479082;
-            stroke: #2a2a2a;
-            stroke-width: 2px;
-            &:hover {
-                fill: #de99a8;
-                transition: 300ms ease-in-out;
-            }
-        }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
     }
-    //makers foto cards & arrows De Makers
-    .btn-julius {
-        position: absolute;
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        outline: inherit;
-        filter: brightness(0.6);
-        width: 25%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        img {
-            width: 100%;
-        }
-        &:hover {
-            filter: brightness(1);
-            transition: 300ms ease-in-out;
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
+    }
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 65%;
+        transform: translate(-50%, -65%);
+    }
+    .front-logo {
+        width: 45vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.6vw;
             cursor: pointer;
-        }
-    }
-    .contact-ons-links {
-        position: absolute;
-        display: flex;
-        top: 50%;
-        left: 1%;
-        transform: rotate(90deg);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #479082;
-        }
-    }
-    .home-arrow {
-        position: absolute;
-        display: flex;
-        top: 50%;
-        right: 4%;
-        transform: rotate(-90deg);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #479082;
-        }
-    }
-    //modal & popup-text styling De Makers
-    .content-details-two {
-        position: absolute;
-        width: 30%;
-        opacity: 0;
-        top: 10%;
-        left: 9%;
-        -webkit-transform: translate(25%, 70%);
-        -moz-transform: translate(25%, 70%);
-        transform: translate(25%, 70%);
-        -webkit-transition: all 1.2 ease-in-out 1.2s;
-        -moz-transition: all 1.2 ease-in-out 1.2s;
-        transition: all 1.2 ease-in-out 1.2s;
-        z-index: 1;
-    }
-    .content:hover .content-details-two {
-        opacity: 1;
-        img {
-            width: 100%;
-        }
-    }
-
-    //contact card & arrows Contact Ons
-    .contact-card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 50%;
-        left: 50%;
-        width: 40%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        img {
-            width: 100%;
-        }
-    }
-    .contact-links {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        right: 1rem;
-        ul {
-            list-style-type: none;
-            text-transform: uppercase;
-            font-family: "Roboto", sans-serif;
-            font-size: 20px;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            text-align: center;
-            li:nth-child(1) > a {
-                color: #f2a2ba;
-                text-decoration: none;
-            }
-            li:nth-child(2) > a {
-                color: #e95c47;
-                text-decoration: none;
-            }
-        }
-        ul > li:nth-child(1) {
-            margin-top: 4rem;
-        }
-        ul > li:nth-child(2) {
-            margin-top: 20px;
-        }
-    }
-    .makers-rechts {
-        position: absolute;
-        display: flex;
-        top: 50%;
-        right: 2%;
-        transform: rotate(-90deg);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #479082;
-        }
-    }
-    .home-arrow-links {
-        position: absolute;
-        display: flex;
-        top: 50%;
-        left: 4%;
-        transform: rotate(90deg);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #479082;
-        }
-    }
-
-    // arrow down & uitleg over podcast tailor
-    #home > a > div.arrow-down {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 82%;
-        left: 50%;
-        width: auto;
-        transform: translate(-50%, -50%);
-        svg {
-            fill: #de99a8;
-            stroke: #2a2a2a;
-            stroke-width: 2px;
-            transform: rotate(90deg);
-            &:hover {
-                fill: #479082;
-                transition: 300ms ease-in-out;
+            a {
+                width: 19vw;
+                height: 45px;
+                border-radius: 2.5px;
+                // &:hover {
+                //     transform: scale(1.08);
+                //     transition: 350ms ease-in-out;
+                // }
+                h3 {
+                    font-size: 19px;
+                    &:hover {
+                        filter: invert(1);
+                        transition: 400ms ease-in-out;
+                    }
+                }
             }
         }
     }
-
-    #home > a > div.uitleg {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 90%;
-        left: 50%;
-        width: auto;
-        transform: translate(-50%, -50%);
-        h3 {
-            font-family: "Roboto", sans-serif;
-            font-size: 21px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #de99a8;
-        }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
     }
 }
-
-//Reserve code voor pop-up met close-click
-
-// .modal-window {
-//     position: fixed;
-//     top: 0%;
-//     right: 30%;
-//     bottom: 0;
-//     left: 0;
-//     z-index: 999;
-//     visibility: hidden;
-//     opacity: 0;
-//     pointer-events: none;
-//     -webkit-transition: all 0.3s;
-//     -moz-transition: all 0.3s;
-//     transition: all 0.5s;
-//     &:target {
-//         visibility: visible;
-//         opacity: 0.9;
-//         pointer-events: auto;
-//     }
-//     & > div {
-//         width: 400px;
-//         position: absolute;
-//         top: 75%;
-//         left: 47.5%;
-//         transform: translate(-50%, -50%);
-//         padding: 2em;
-//     }
-//     img {
-//         width: 80%;
-//     }
-// }
-
-// .modal-close {
-//     position: absolute;
-//     z-index: 3;
-//     opacity: 0.6;
-//     left: 67.5%;
-//     top: 50px;
-//     width: 28px;
-//     &:hover {
-//         opacity: 0.9;
-//         transition: 300ms linear;
-//     }
-// }
-
-// .modal-window div:not(:last-of-type) {
-//     margin-bottom: 15px;
-// }
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2600px) {
+    ///DISPLAY NONE
+    .navbar-small-homepage {
+        display: none;
+    }
+    .navbar-bigg-homepage {
+        top: 0;
+        // margin-top: 35%;
+    }
+    ///REST OF CODE
+    .container-logo {
+        top: 65%;
+        transform: translate(-50%, -65%);
+    }
+    .front-logo {
+        width: 45vw;
+    }
+    .podcast-buttons {
+        display: flex;
+        margin-top: 10%;
+        button {
+            letter-spacing: 0.05rem;
+            margin: 0vw 0.6vw;
+            cursor: pointer;
+            a {
+                width: 19vw;
+                height: 45px;
+                border-radius: 2.5px;
+                // &:hover {
+                //     transform: scale(1.08);
+                //     transition: 350ms ease-in-out;
+                // }
+                h3 {
+                    font-size: 21px;
+                    &:hover {
+                        filter: invert(1);
+                        transition: 400ms ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    .button-persoonlijk {
+        background-color: #d06654;
+        color: whitesmoke;
+    }
+    .button-zakelijk {
+        background-color: #fbc23e;
+        color: black;
+    }
+}

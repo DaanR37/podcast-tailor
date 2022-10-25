@@ -1,0 +1,24 @@
+#menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #d06654;
+    // div {
+    //     background-color: #FBC23E;
+    // }
+}
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    #menu {
+        height: 25px;
+        top: 2rem;
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    #menu {
+        height: 25px;
+        top: 2.5rem;
+    }
+}

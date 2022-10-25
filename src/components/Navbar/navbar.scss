@@ -1,208 +1,86 @@
-.nav-container {
+.nav-container-large-screens {
     position: absolute;
     display: flex;
-    width: 100vw;
-    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     background-color: #d16654;
-    font-family: "Roboto", sans-serif;
-}
-.buttons-mid-right {
-    list-style-type: none;
-    text-transform: uppercase;
-}
-
-@media screen and (max-width: 600px) and (orientation: portrait) {
-    .nav-container {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        height: 1.5%;
-        top: 3%;
-    }
-    .buttons-left {
-        display: none;
-    }
-    .button-home-middle {
-        display: none;
-    }
-    .buttons-mid-right {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100vw;
-    }
-    .mobile-logo {
-        position: absolute;
-        display: flex;
-        justify-content: flex-start;
-        width: 50%;
-        left: 3%;
-        img {
-            width: 70%;
-        }
-    }
-    .button-aanvraag {
-        font-size: 14px;
-        font-weight: 600;
+    button {
         text-transform: uppercase;
-        background: none;
-        border: none;
-        color: #292a2a;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .nav-container {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        height: 1.5%;
-        top: 3%;
-    }
-    .buttons-left {
-        display: none;
-    }
-    .button-home-middle {
-        display: none;
-    }
-    .buttons-mid-right {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100vw;
-    }
-    .mobile-logo {
-        position: absolute;
-        display: flex;
-        justify-content: flex-start;
-        width: 50%;
-        left: 3%;
-        img {
-            width: 70%;
-        }
-    }
-    .button-aanvraag {
-        position: relative;
-        right: 1rem;
-        font-size: 20px;
-        font-weight: 600;
-        text-transform: uppercase;
-        background: none;
-        border: none;
-        color: #292a2a;
-    }
-}
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    .nav-container {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        height: 40px;
-        top: 3%;
-    }
-    .buttons-left {
-        display: none;
-    }
-    .button-home-middle {
-        display: none;
-    }
-    .buttons-mid-right {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100vw;
-    }
-    .mobile-logo {
-        position: absolute;
-        display: flex;
-        justify-content: flex-start;
-        width: 35%;
-        left: 3%;
-        img {
-            width: 70%;
-        }
-    }
-    .button-aanvraag {
-        position: relative;
-        font-size: 20px;
-        font-weight: 600;
-        text-transform: uppercase;
-        background: none;
-        border: none;
-        color: #292a2a;
-        right: 15%;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .nav-container {
-        top: 3%;
-        height: 40px;
-    }
-    .mobile-logo {
-        display: none;
-    }
-    .buttons-left {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        list-style-type: none;
-        text-transform: uppercase;
-        width: 20%;
-        right: 2%;
         a {
-            color: #2a2a2a;
-            font-size: 17px;
-            font-weight: 600;
-            letter-spacing: 0.1em;
+            color: whitesmoke;
             text-decoration: none;
-            margin: 0 auto;
-            &:hover {
-                color: #fffffe;
-                transition: 400ms ease-in-out;
+        }
+        h3 {
+            padding: 0;
+            font-family: "Roboto Condensed", sans-serif;
+            // font-family: "Roboto", sans-serif;
+        }
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    .nav-container-large-screens {
+        top: 6%;
+        height: 40px;
+        button {
+            letter-spacing: 0.04rem;
+            font-size: 17px;
+            h3 {
+                margin: 0px 15px;
             }
         }
     }
-    .buttons-mid-right {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 80%;
-        left: 8.7%;
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    .nav-container-large-screens {
+        top: 6%;
+        height: 40px;
+        button {
+            letter-spacing: 0.04rem;
+            font-size: 17px;
+            h3 {
+                margin: 0px 15px;
+            }
+        }
     }
-    .button-home-middle {
-        position: relative;
-        color: #fffffe;
-        font-size: 30px;
-        font-weight: 600;
-        text-decoration: none;
-        letter-spacing: 0.1em;
-        margin: 0 auto;
-        text-transform: uppercase;
-        background: none;
-        border: none;
-        display: flex;
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    .nav-container-large-screens {
+        top: 8%;
+        height: 40px;
+        button {
+            letter-spacing: 0.123rem;
+            cursor: pointer;
+            font-size: 19px;
+            &:hover {
+                filter: invert(1);
+                transition: 400ms ease-in-out;
+            }
+            h3 {
+                margin: 0px 20px;
+            }
+        }
     }
-    .button-aanvraag {
-        position: relative;
-        left: 18%;
-        color: #2a2a2a;
-        font-size: 17px;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-decoration: none;
-        margin: 0 auto;
-        text-transform: uppercase;
-        background: none;
-        border: none;
-        cursor: pointer;
-        &:hover {
-            color: #fffffe;
-            transition: 400ms ease-in-out;
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2600px) {
+    .nav-container-large-screens {
+        top: 8%;
+        height: 40px;
+        button {
+            letter-spacing: 0.123rem;
+            cursor: pointer;
+            font-size: 19px;
+            &:hover {
+                filter: invert(1);
+                transition: 400ms ease-in-out;
+            }
+            h3 {
+                margin: 0px 20px;
+            }
         }
     }
 }

@@ -1,0 +1,425 @@
+#persoonlijke-podcasts {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+}
+.container-persoonlijk {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h3 {
+        text-align: center;
+        color: black;
+    }
+}
+.audio-player {
+    position: relative;
+    --primary: #479082;
+    --secondary: black;
+    .play-button {
+        background: var(--primary);
+        border: none;
+        border-radius: 50%;
+        color: var(--secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play {
+        position: relative;
+    }
+    .stippellijn {
+        position: absolute;
+        top: 0;
+    }
+}
+.aanvraag-button-persoonlijk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d06654;
+    border: yellow dotted 1px;
+    border-radius: 2.5px;
+    bottom: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+///Mobile Portrait
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-bigg-persoonlijke-podcasts {
+        display: none;
+    }
+    .navbar-small-persoonlijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-persoonlijk {
+        width: 80%;
+        margin-top: 28.5%;
+        h1 {
+            font-size: 15px;
+            color: #479082;
+            margin-bottom: 2.5px;
+        }
+        h3 {
+            font-size: 13.5px;
+            // font-weight: 400;
+            letter-spacing: 0.01rem;
+            margin-top: 15px;
+            line-height: 1.25rem;
+        }
+        p {
+            margin-top: 9%;
+            font-size: 13px;
+        }
+    }
+    .audio-player {
+        // top: 2vh;
+        .play-button {
+            width: 45px;
+            height: 45px;
+            font-size: 16px;
+        }
+        .play {
+            left: 2px;
+        }
+        .stippellijn {
+            width: 9vw;
+            margin-top: 1.8rem;
+            right: 3.25rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .aanvraag-button-persoonlijk {
+        width: 175px;
+        height: 35px;
+        margin-top: 5%;
+        h1 {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Mobile Landscape
+@media only screen and (min-width: 600px) and (max-width: 926px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-bigg-persoonlijke-podcasts {
+        display: none;
+    }
+    .navbar-small-persoonlijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-persoonlijk {
+        width: 60%;
+        margin-top: 12.5%;
+        h1 {
+            font-size: 15px;
+            color: #479082;
+            // margin: 0;
+        }
+        h3 {
+            font-size: 13.5px;
+            // font-weight: 400;
+            letter-spacing: 0.01rem;
+            margin-top: 5px;
+            line-height: 1.25rem;
+        }
+        p {
+            margin-top: 8%;
+            font-size: 13px;
+        }
+    }
+    .audio-player {
+        top: 2vh;
+        .play-button {
+            width: 40px;
+            height: 40px;
+            font-size: 15px;
+        }
+        .play {
+            left: 1px;
+        }
+        .stippellijn {
+            width: 4.5vw;
+            margin-top: 1.8rem;
+            right: 2.8rem;
+        }
+    }
+    .aanvraag-button-persoonlijk {
+        width: 150px;
+        height: 30px;
+        // margin: 7% 0%;
+        margin-top: 1%;
+        h1 {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Tablet Portrait
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    ///DISPLAY NONE
+    .navbar-small-persoonlijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-persoonlijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-persoonlijk {
+        width: 60%;
+        margin-top: 20%;
+        h1 {
+            font-size: 21px;
+            color: #479082;
+            margin-bottom: 7.5px;
+        }
+        h3 {
+            font-size: 19px;
+            // font-weight: 400;
+            letter-spacing: 0.03rem;
+            margin-top: 12.5px;
+            line-height: 1.9rem;
+        }
+        p {
+            margin-top: 11%;
+            font-size: 15px;
+        }
+    }
+    .audio-player {
+        top: 2vh;
+        .play-button {
+            width: 55px;
+            height: 55px;
+            font-size: 18px;
+        }
+        .play {
+            left: 1.5px;
+        }
+        .stippellijn {
+            width: 6vw;
+            margin-top: 2.5rem;
+            right: 3.5rem;
+        }
+    }
+    .aanvraag-button-persoonlijk {
+        width: 225px;
+        height: 40px;
+        margin-top: 8%;
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    //DISPLAY NONE
+    .navbar-small-persoonlijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-persoonlijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-persoonlijk {
+        width: 55%;
+        margin-top: 12.5%;
+        h1 {
+            font-size: 21px;
+            color: #479082;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 19px;
+            // font-weight: 400;
+            letter-spacing: 0.03rem;
+            line-height: 1.9rem;
+        }
+        p {
+            margin-top: 11%;
+            font-size: 15px;
+        }
+    }
+    .audio-player {
+        top: 2vh;
+        .play-button {
+            width: 55px;
+            height: 55px;
+            font-size: 18px;
+        }
+        .play {
+            left: 1.5px;
+        }
+        .stippellijn {
+            width: 5vw;
+            margin-top: 2.75rem;
+            right: 3.5rem;
+        }
+    }
+    .aanvraag-button-persoonlijk {
+        width: 225px;
+        height: 40px;
+        margin-top: 5%;
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            color: whitesmoke;
+            margin: 0;
+        }
+    }
+}
+///Desktop
+@media screen and (min-width: 1281px) and (max-width: 1960px) {
+    //DISPLAY NONE
+    .navbar-small-persoonlijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-persoonlijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-persoonlijk {
+        width: 50%;
+        margin-top: 10%;
+        h1 {
+            font-size: 26px;
+            color: #479082;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 22px;
+            // font-weight: 400;
+            letter-spacing: 0.04rem;
+            margin-top: 12.5px;
+            line-height: 2.2rem;
+        }
+        p {
+            margin-top: 6%;
+            font-size: 17px;
+        }
+    }
+    .audio-player {
+        // top: 3vh;
+        .play-button {
+            cursor: pointer;
+            width: 55px;
+            height: 55px;
+            font-size: 20px;
+        }
+        .play {
+            left: 2px;
+        }
+        .stippellijn {
+            width: 3.25vw;
+            margin-top: 2.75rem;
+            right: 3.25rem;
+        }
+    }
+    .aanvraag-button-persoonlijk {
+        width: 315px;
+        height: 52.5px;
+        // margin: 10% 0%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            color: whitesmoke;
+            margin: 0;
+            &:hover {
+                filter: invert(1);
+                transition: 400ms ease-in-out;
+            }
+        }
+    }
+}
+///Desktop Big
+@media screen and (min-width: 1961px) and (max-width: 2600px) {
+    //DISPLAY NONE
+    .navbar-small-persoonlijke-podcasts {
+        display: none;
+    }
+    .navbar-bigg-persoonlijke-podcasts {
+        top: 0;
+        // margin-top: 35%;
+    }
+    .container-persoonlijk {
+        width: 50%;
+        margin-top: 10%;
+        h1 {
+            font-size: 27px;
+            color: #479082;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 24px;
+            // font-weight: 400;
+            letter-spacing: 0.05rem;
+            margin-top: 12.5px;
+            line-height: 2.2rem;
+        }
+        p {
+            margin-top: 9%;
+            font-size: 18px;
+        }
+    }
+    .audio-player {
+        top: 3vh;
+        .play-button {
+            cursor: pointer;
+            width: 55px;
+            height: 55px;
+            font-size: 20px;
+        }
+        .play {
+            left: 2px;
+        }
+        .stippellijn {
+            width: 3.25vw;
+            margin-top: 2.75rem;
+            right: 3.25rem;
+        }
+    }
+    .aanvraag-button-persoonlijk {
+        width: 315px;
+        height: 52.5px;
+        // margin: 10% 0%;
+        margin-top: 4%;
+        cursor: pointer;
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            color: whitesmoke;
+            margin: 0;
+            &:hover {
+                filter: invert(1);
+                transition: 400ms ease-in-out;
+            }
+        }
+    }
+}
