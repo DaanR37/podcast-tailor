@@ -1,6 +1,6 @@
 {
   "name": "podcast-tailor",
-  "homepage": "/",
+  "homepage": "https://podcast-tailor.nl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
