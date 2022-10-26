@@ -34,13 +34,13 @@ export default function Makers() {
                 <div className="footer">
                     <p>podcast tailor</p>
                     <a href="mailto:info@podcast-tailor.nl" target="_blank" rel="noreferrer">
-                        <p><i>email:</i> info@podcast-tailor.nl</p>
+                        <p><i>Email:</i> info@podcast-tailor.nl</p>
                     </a>
                     <a href="tel:0681476083" target="_blank" rel="noreferrer">
-                        <p><i>telefoon:</i> +31 (0)6 81 47 60 83</p>
+                        <p><i>Telefoon:</i> +31 (0)6 81 47 60 83</p>
                     </a>
                     <a href="https://g.page/tebbernekkel?share" target="_blank" rel="noreferrer">
-                        <p><i>adres:</i> Weteringschans 79, 1017RX A'dam</p>
+                        <p><i>Adres:</i> Weteringschans 79, 1017RX A'dam</p>
                     </a>
                     <br />
                     <p>© 2022 Front-Labs. All Rights Reserved. <i>Design by Joey Andela</i>

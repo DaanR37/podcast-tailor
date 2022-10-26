@@ -33,8 +33,9 @@
     display: flex; ////EXP.
     flex-direction: column; ////EXP.
     align-items: flex-start; ////EXP.
-    // justify-content: center;
-    // height: 100%;
+
+    justify-content: center;
+    height: 100%;
     p {
         color: whitesmoke;
         font-weight: 200;
@@ -103,12 +104,12 @@
         margin-top: 20%;
     }
     #de-makers {
-        height: 110vh;
+        height: 100vh;
     }
     .container-makers {
         width: 90%;
-        top: 45%;
-        transform: translate(-50%, -45%);
+        top: 40%;
+        transform: translate(-50%, -40%);
         h2 {
             font-size: 28px;
             letter-spacing: 0.01rem;
@@ -126,12 +127,12 @@
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
         height: 15vh;
-        top: 95vh;
+        top: 85vh;
     }
     .footer p {
         font-size: 7px;
-        margin-top: 0;
-        margin-bottom: 8.5px;
+        // margin-top: 0;
+        margin-bottom: 5px;
         margin-left: 0.5rem;
     }
     .footer > p:nth-child(1) {
@@ -141,10 +142,10 @@
     }
     .footer > p:nth-child(6) {
         font-size: 5.5px;
-        margin-bottom: 5px;
+        margin-bottom: 0;
     }
-    .footer > a:nth-child(4) {
-        margin-bottom: 0.5rem;
+    #de-makers > footer > div.footer > a:nth-child(4) > p {
+        margin-bottom: 0;
     }
     .container-right-side {
         margin-right: 1rem;
@@ -191,15 +192,15 @@
     }
     .container-makers {
         width: 100%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        top: 40%;
+        transform: translate(-50%, -40%);
         h2 {
-            font-size: 21px;
+            font-size: 20.5px;
             letter-spacing: 0.01rem;
             margin-bottom: 20px;
         }
         h1 {
-            font-size: 19px;
+            font-size: 18.5px;
             letter-spacing: 0.01rem;
             margin: 10px;
         }
@@ -213,22 +214,22 @@
         top: 90vh;
     }
     .footer p {
-        font-size: 7.5px;
+        font-size: 7px;
         margin-top: 0;
-        margin-bottom: 6.5px;
-        margin-left: 1rem;
+        // margin-bottom: 5px;
+        margin-left: 0.5rem;
     }
     .footer > p:nth-child(1) {
-        font-size: 9px;
+        font-size: 9.5px;
         font-weight: 400;
         color: pink;
     }
     .footer > p:nth-child(6) {
         font-size: 5.5px;
-        margin-bottom: 3px;
+        margin-bottom: 0;
     }
-    .footer > a:nth-child(4) {
-        margin-bottom: 0.25rem;
+    #de-makers > footer > div.footer > a:nth-child(4) > p {
+        margin-bottom: 0;
     }
     .container-right-side {
         margin-right: 1.5rem;
@@ -270,11 +271,11 @@
         margin-top: 7.5%;
     }
     #de-makers {
-        height: 110vh;
+        height: 100vh;
     }
     .container-makers {
-        top: 45%;
-        transform: translate(-50%, -45%);
+        top: 40%;
+        transform: translate(-50%, -40%);
         h2 {
             font-size: 37px;
             letter-spacing: 0.04rem;
@@ -289,12 +290,12 @@
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
         height: 15vh;
-        top: 95vh;
+        top: 85vh;
     }
     .footer p {
         font-size: 12px;
         margin-top: 0;
-        margin-bottom: 12.5px;
+        margin-bottom: 15px;
         margin-left: 1.25rem;
     }
     .footer > p:nth-child(1) {
@@ -304,11 +305,14 @@
     }
     .footer > p:nth-child(6) {
         font-size: 8px;
-        margin-bottom: 5px;
+        margin-bottom: 0;
     }
-    .footer > a:nth-child(4) {
-        margin-bottom: 1.5rem;
+    #de-makers > footer > div.footer > a:nth-child(4) > p {
+        margin-bottom: 1rem;
     }
+    // .footer > a:nth-child(4) {
+    //     margin-bottom: 1.5rem;
+    // }
     .container-right-side {
         margin-right: 1.5rem;
         margin-top: 1.5rem;
@@ -353,15 +357,15 @@
         height: 100vh;
     }
     .container-makers {
-        top: 45%;
-        transform: translate(-50%, -45%);
+        top: 40%;
+        transform: translate(-50%, -40%);
         h2 {
-            font-size: 37px;
+            font-size: 35px;
             letter-spacing: 0.04rem;
             margin-bottom: 25px;
         }
         h1 {
-            font-size: 34px;
+            font-size: 32px;
             letter-spacing: 0.04rem;
             margin: 15px;
         }
@@ -374,21 +378,25 @@
     .footer p {
         font-size: 12px;
         margin-top: 0;
-        margin-bottom: 11.5px;
+        margin-bottom: 15px;
         margin-left: 1.25rem;
     }
     .footer > p:nth-child(1) {
         font-size: 14px;
         font-weight: 400;
         color: pink;
+        margin-top: 10px;
     }
     .footer > p:nth-child(6) {
-        font-size: 9px;
-        margin-bottom: 5px;
+        font-size: 8px;
+        margin-bottom: 0;
     }
-    .footer > a:nth-child(4) {
-        margin-bottom: 0.8rem;
+    #de-makers > footer > div.footer > a:nth-child(4) > p {
+        margin-bottom: 0.1rem;
     }
+    // .footer > a:nth-child(4) {
+    //     margin-bottom: 1.5rem;
+    // }
     .container-right-side {
         margin-right: 1.5rem;
         margin-top: 1.5rem;
@@ -455,6 +463,7 @@
         height: 20vh;
         top: 90vh;
     }
+
     .footer p {
         font-size: 11.5px;
         margin-top: 0;
@@ -463,6 +472,7 @@
     }
     .footer a {
         opacity: 0.85;
+        cursor: pointer;
         &:hover {
             opacity: 1;
             transition: 400ms ease-in-out;
@@ -474,11 +484,13 @@
         color: pink;
     }
     .footer > p:nth-child(6) {
-        font-size: 11px;
+        font-size: 9.5px;
+        margin-bottom: 0;
     }
-    .footer > a:nth-child(4) {
-        margin-bottom: 1rem;
+    #de-makers > footer > div.footer > a:nth-child(4) > p {
+        margin-bottom: 0;
     }
+
     .container-right-side {
         margin-right: 2rem;
         margin-top: 1rem;
@@ -550,13 +562,14 @@
         top: 90vh;
     }
     .footer p {
-        font-size: 12.5px;
+        font-size: 11.5px;
         margin-top: 0;
-        margin-bottom: 15px;
-        margin-left: 2rem;
+        margin-bottom: 10px;
+        margin-left: 1.5rem;
     }
     .footer a {
         opacity: 0.85;
+        cursor: pointer;
         &:hover {
             opacity: 1;
             transition: 400ms ease-in-out;
@@ -568,10 +581,11 @@
         color: pink;
     }
     .footer > p:nth-child(6) {
-        font-size: 11px;
+        font-size: 9.5px;
+        margin-bottom: 0;
     }
-    .footer > a:nth-child(4) {
-        margin-bottom: 1rem;
+    #de-makers > footer > div.footer > a:nth-child(4) > p {
+        margin-bottom: 0;
     }
     .container-right-side {
         margin-right: 2.5rem;
