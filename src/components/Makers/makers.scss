@@ -27,23 +27,32 @@
     background-color: black;
     opacity: 0.75;
 }
-.footer {
+/// CONTACT DETAILS
+.contact-container {
     position: absolute;
-    bottom: 0;
-    display: flex; ////EXP.
-    flex-direction: column; ////EXP.
-    align-items: flex-start; ////EXP.
-
-    justify-content: center;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     p {
         color: whitesmoke;
-        font-weight: 200;
     }
     a {
         text-decoration: none;
+        color: whitesmoke;
     }
 }
+.contact-container > p:nth-child(1) {
+    color: pink;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-weight: 200;
+    color: whitesmoke;
+}
+/// REST OF CODE
 .container-right-side {
     position: absolute;
     display: flex;
@@ -129,23 +138,23 @@
         height: 15vh;
         top: 85vh;
     }
-    .footer p {
-        font-size: 7px;
-        // margin-top: 0;
-        margin-bottom: 5px;
+    .contact-container {
         margin-left: 0.5rem;
+        p {
+            font-size: 7px;
+            margin: 2.5px 0px;
+        }
+        a {
+            margin-bottom: 2px;
+        }
     }
-    .footer > p:nth-child(1) {
+    .contact-container > p:nth-child(1) {
         font-size: 9.5px;
-        font-weight: 400;
-        color: pink;
     }
-    .footer > p:nth-child(6) {
+    .footer {
         font-size: 5.5px;
-        margin-bottom: 0;
-    }
-    #de-makers > footer > div.footer > a:nth-child(4) > p {
-        margin-bottom: 0;
+        margin-left: 0.5rem;
+        margin-bottom: 5px;
     }
     .container-right-side {
         margin-right: 1rem;
@@ -153,7 +162,7 @@
         a {
             font-size: 11px;
             p {
-                margin: 0 0 15px 0;
+                margin: 0 0 25px 0;
             }
         }
     }
@@ -161,7 +170,7 @@
         margin: 0;
         padding: 0;
         li a img {
-            width: 20.5px;
+            width: 18.5px;
         }
     }
     ///Arrow to the top
@@ -213,30 +222,30 @@
         height: 25vh;
         top: 90vh;
     }
-    .footer p {
-        font-size: 7px;
-        margin-top: 0;
-        // margin-bottom: 5px;
+    .contact-container {
         margin-left: 0.5rem;
+        p {
+            font-size: 7px;
+            margin: 2.5px 0px;
+        }
+        a {
+            margin-bottom: 2px;
+        }
     }
-    .footer > p:nth-child(1) {
+    .contact-container > p:nth-child(1) {
         font-size: 9.5px;
-        font-weight: 400;
-        color: pink;
     }
-    .footer > p:nth-child(6) {
+    .footer {
         font-size: 5.5px;
-        margin-bottom: 0;
-    }
-    #de-makers > footer > div.footer > a:nth-child(4) > p {
-        margin-bottom: 0;
+        margin-left: 0.5rem;
+        margin-bottom: 5px;
     }
     .container-right-side {
         margin-right: 1.5rem;
         a {
             font-size: 11px;
             p {
-                margin: 10px 0 0 0;
+                margin: 5px 0 0 0;
             }
         }
     }
@@ -292,34 +301,31 @@
         height: 15vh;
         top: 85vh;
     }
-    .footer p {
-        font-size: 12px;
-        margin-top: 0;
-        margin-bottom: 15px;
-        margin-left: 1.25rem;
+    .contact-container {
+        margin-left: 0.5rem;
+        p {
+            font-size: 12.5px;
+            margin: 2.5px 0px;
+        }
+        a {
+            margin-bottom: 2px;
+        }
     }
-    .footer > p:nth-child(1) {
+    .contact-container > p:nth-child(1) {
         font-size: 14px;
-        font-weight: 400;
-        color: pink;
     }
-    .footer > p:nth-child(6) {
+    .footer {
         font-size: 8px;
-        margin-bottom: 0;
+        margin-left: 0.5rem;
+        margin-bottom: 5px;
     }
-    #de-makers > footer > div.footer > a:nth-child(4) > p {
-        margin-bottom: 1rem;
-    }
-    // .footer > a:nth-child(4) {
-    //     margin-bottom: 1.5rem;
-    // }
     .container-right-side {
         margin-right: 1.5rem;
         margin-top: 1.5rem;
         a {
             font-size: 18px;
             p {
-                margin: 0 0 20px 0;
+                margin: 0 0 25px 0;
             }
         }
     }
@@ -327,7 +333,7 @@
         margin: 15px 0 0 0;
         padding: 0;
         li a img {
-            width: 32px;
+            width: 30px;
         }
     }
     ///Arrow to the top
@@ -375,35 +381,31 @@
         height: 19vh;
         top: 81vh;
     }
-    .footer p {
-        font-size: 12px;
-        margin-top: 0;
-        margin-bottom: 15px;
-        margin-left: 1.25rem;
+    .contact-container {
+        margin-left: 0.5rem;
+        p {
+            font-size: 12.5px;
+            margin: 2.5px 0px;
+        }
+        a {
+            margin-bottom: 2px;
+        }
     }
-    .footer > p:nth-child(1) {
+    .contact-container > p:nth-child(1) {
         font-size: 14px;
-        font-weight: 400;
-        color: pink;
-        margin-top: 10px;
     }
-    .footer > p:nth-child(6) {
-        font-size: 8px;
-        margin-bottom: 0;
+    .footer {
+        font-size: 9px;
+        margin-left: 0.5rem;
+        margin-bottom: 5px;
     }
-    #de-makers > footer > div.footer > a:nth-child(4) > p {
-        margin-bottom: 0.1rem;
-    }
-    // .footer > a:nth-child(4) {
-    //     margin-bottom: 1.5rem;
-    // }
     .container-right-side {
         margin-right: 1.5rem;
         margin-top: 1.5rem;
         a {
             font-size: 18px;
             p {
-                margin: 0 0 15px 0;
+                margin: 0 0 25px 0;
             }
         }
     }
@@ -411,7 +413,7 @@
         margin: 10px 0 0 0;
         padding: 0;
         li a img {
-            width: 30px;
+            width: 28px;
         }
     }
     ///Arrow to the top
@@ -463,34 +465,30 @@
         height: 20vh;
         top: 90vh;
     }
-
-    .footer p {
-        font-size: 11.5px;
-        margin-top: 0;
-        margin-bottom: 10px;
+    .contact-container {
         margin-left: 1.5rem;
-    }
-    .footer a {
-        opacity: 0.85;
-        cursor: pointer;
-        &:hover {
-            opacity: 1;
-            transition: 400ms ease-in-out;
+        p {
+            font-size: 11.5px;
+            margin: 5px 0px;
+        }
+        a {
+            margin-bottom: 2px;
+            opacity: 0.85;
+            cursor: pointer;
+            &:hover {
+                opacity: 1;
+                transition: 400ms ease-in-out;
+            }
         }
     }
-    .footer > p:nth-child(1) {
+    .contact-container > p:nth-child(1) {
         font-size: 14px;
-        font-weight: 400;
-        color: pink;
     }
-    .footer > p:nth-child(6) {
+    .footer {
         font-size: 9.5px;
-        margin-bottom: 0;
+        margin-left: 1.5rem;
+        margin-bottom: 5px;
     }
-    #de-makers > footer > div.footer > a:nth-child(4) > p {
-        margin-bottom: 0;
-    }
-
     .container-right-side {
         margin-right: 2rem;
         margin-top: 1rem;
@@ -561,31 +559,29 @@
         height: 20vh;
         top: 90vh;
     }
-    .footer p {
-        font-size: 11.5px;
-        margin-top: 0;
-        margin-bottom: 10px;
+    .contact-container {
         margin-left: 1.5rem;
-    }
-    .footer a {
-        opacity: 0.85;
-        cursor: pointer;
-        &:hover {
-            opacity: 1;
-            transition: 400ms ease-in-out;
+        p {
+            font-size: 11.5px;
+            margin: 5px 0px;
+        }
+        a {
+            margin-bottom: 2px;
+            opacity: 0.85;
+            cursor: pointer;
+            &:hover {
+                opacity: 1;
+                transition: 400ms ease-in-out;
+            }
         }
     }
-    .footer > p:nth-child(1) {
+    .contact-container > p:nth-child(1) {
         font-size: 14px;
-        font-weight: 400;
-        color: pink;
     }
-    .footer > p:nth-child(6) {
+    .footer {
         font-size: 9.5px;
-        margin-bottom: 0;
-    }
-    #de-makers > footer > div.footer > a:nth-child(4) > p {
-        margin-bottom: 0;
+        margin-left: 1.5rem;
+        margin-bottom: 5px;
     }
     .container-right-side {
         margin-right: 2.5rem;

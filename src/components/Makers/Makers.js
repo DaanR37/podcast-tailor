@@ -31,8 +31,9 @@ export default function Makers() {
             </div>
 
             <footer className="container-footer">
-                <div className="footer">
-                    <p>podcast tailor</p>
+
+                <div className="contact-container">
+                    <p>PODCAST TAILOR</p>
                     <a href="mailto:info@podcast-tailor.nl" target="_blank" rel="noreferrer">
                         <p><i>Email:</i> info@podcast-tailor.nl</p>
                     </a>
@@ -42,10 +43,11 @@ export default function Makers() {
                     <a href="https://g.page/tebbernekkel?share" target="_blank" rel="noreferrer">
                         <p><i>Adres:</i> Weteringschans 79, 1017RX A'dam</p>
                     </a>
-                    <br />
-                    <p>© 2022 Front-Labs. All Rights Reserved. <i>Design by Joey Andela</i>
-                    </p>
                 </div>
+
+                <p className="footer">© 2022 Front-Labs. All Rights Reserved.
+                    <i>Design by Joey Andela</i>
+                </p>
 
                 <div className="container-right-side">
                     <Link to="/faq" className="faq">
