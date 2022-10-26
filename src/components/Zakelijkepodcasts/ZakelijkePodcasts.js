@@ -41,6 +41,10 @@ export default function ZakelijkePodcasts() {
                 <button data-tf-slider="QInKKEpl" data-tf-width="550" className="aanvraag-button-zakelijk">
                     <h1>doe een aanvraag</h1>
                 </button>
+
+                <p><i>Voor de volgende klanten maken wij podcasts:</i></p>
+                <img src="images/banner-klanten.png" alt="klanten banner" />
+
             </div>
         </section>
     )

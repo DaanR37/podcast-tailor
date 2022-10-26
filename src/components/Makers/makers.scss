@@ -30,9 +30,17 @@
 .footer {
     position: absolute;
     bottom: 0;
+    display: flex; ////EXP.
+    flex-direction: column; ////EXP.
+    align-items: flex-start; ////EXP.
+    // justify-content: center;
+    // height: 100%;
     p {
         color: whitesmoke;
         font-weight: 200;
+    }
+    a {
+        text-decoration: none;
     }
 }
 .container-right-side {
@@ -43,7 +51,7 @@
     a {
         color: whitesmoke;
         text-decoration: none;
-        font-weight: 100;
+        // font-weight: 100;
     }
 }
 .contact-buttons ul {
@@ -92,13 +100,13 @@
     }
     .navbar-small-makers {
         top: 0;
-        margin-top: 45%;
+        margin-top: 20%;
     }
     #de-makers {
-        height: 100vh;
+        height: 110vh;
     }
     .container-makers {
-        width: 100%;
+        width: 90%;
         top: 45%;
         transform: translate(-50%, -45%);
         h2 {
@@ -111,20 +119,38 @@
             letter-spacing: 0.01rem;
             margin: 12.5px;
         }
+        p {
+            font-size: 12px;
+        }
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
         height: 15vh;
-        top: 100vh;
+        top: 95vh;
     }
     .footer p {
         font-size: 7px;
-        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 8.5px;
+        margin-left: 0.5rem;
+    }
+    .footer > p:nth-child(1) {
+        font-size: 9.5px;
+        font-weight: 400;
+        color: pink;
+    }
+    .footer > p:nth-child(6) {
+        font-size: 5.5px;
+        margin-bottom: 5px;
+    }
+    .footer > a:nth-child(4) {
+        margin-bottom: 0.5rem;
     }
     .container-right-side {
         margin-right: 1rem;
+        margin-top: 1rem;
         a {
-            font-size: 10px;
+            font-size: 11px;
             p {
                 margin: 0 0 15px 0;
             }
@@ -134,16 +160,20 @@
         margin: 0;
         padding: 0;
         li a img {
-            width: 22.5px;
+            width: 20.5px;
         }
     }
     ///Arrow to the top
-    .arrow-top span {
-        margin-top: -8px;
-        width: 16px;
-        height: 16px;
-        border-bottom: 1px solid white;
-        border-right: 1px solid white;
+    .arrow-top {
+        top: 0;
+        margin-top: 11.5%;
+        span {
+            margin-top: -8px;
+            width: 14.5px;
+            height: 14.5px;
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+        }
     }
 }
 ///Mobile Landscape
@@ -157,36 +187,53 @@
         margin-top: 42.5%;
     }
     #de-makers {
-        height: 100vh;
+        height: 115vh;
     }
     .container-makers {
         width: 100%;
         top: 50%;
         transform: translate(-50%, -50%);
         h2 {
-            font-size: 25px;
+            font-size: 21px;
             letter-spacing: 0.01rem;
             margin-bottom: 20px;
         }
         h1 {
-            font-size: 23px;
+            font-size: 19px;
             letter-spacing: 0.01rem;
             margin: 10px;
+        }
+        p {
+            font-size: 12px;
         }
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 22vh;
-        top: 93vh;
+        height: 25vh;
+        top: 90vh;
     }
     .footer p {
-        font-size: 8px;
-        margin-left: 1.5rem;
+        font-size: 7.5px;
+        margin-top: 0;
+        margin-bottom: 6.5px;
+        margin-left: 1rem;
+    }
+    .footer > p:nth-child(1) {
+        font-size: 9px;
+        font-weight: 400;
+        color: pink;
+    }
+    .footer > p:nth-child(6) {
+        font-size: 5.5px;
+        margin-bottom: 3px;
+    }
+    .footer > a:nth-child(4) {
+        margin-bottom: 0.25rem;
     }
     .container-right-side {
         margin-right: 1.5rem;
         a {
-            font-size: 10px;
+            font-size: 11px;
             p {
                 margin: 10px 0 0 0;
             }
@@ -196,16 +243,20 @@
         margin: 15px 0 0 0;
         padding: 0;
         li a img {
-            width: 19.5px;
+            width: 19px;
         }
     }
     ///Arrow to the top
-    .arrow-top span {
-        margin-top: -10px;
-        width: 15px;
-        height: 15px;
-        border-bottom: 1px solid white;
-        border-right: 1px solid white;
+    .arrow-top {
+        top: 0;
+        margin-top: 5%;
+        span {
+            margin-top: -10px;
+            width: 16px;
+            height: 16px;
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+        }
     }
 }
 ///Tablet Portrait
@@ -216,7 +267,87 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        // margin-top: 1%;
+        margin-top: 7.5%;
+    }
+    #de-makers {
+        height: 110vh;
+    }
+    .container-makers {
+        top: 45%;
+        transform: translate(-50%, -45%);
+        h2 {
+            font-size: 37px;
+            letter-spacing: 0.04rem;
+            margin-bottom: 25px;
+        }
+        h1 {
+            font-size: 34px;
+            letter-spacing: 0.04rem;
+            margin: 15px;
+        }
+    }
+    ///Footer & FAQ pagina & social media buttons
+    .container-footer {
+        height: 15vh;
+        top: 95vh;
+    }
+    .footer p {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 12.5px;
+        margin-left: 1.25rem;
+    }
+    .footer > p:nth-child(1) {
+        font-size: 14px;
+        font-weight: 400;
+        color: pink;
+    }
+    .footer > p:nth-child(6) {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .footer > a:nth-child(4) {
+        margin-bottom: 1.5rem;
+    }
+    .container-right-side {
+        margin-right: 1.5rem;
+        margin-top: 1.5rem;
+        a {
+            font-size: 18px;
+            p {
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+    .contact-buttons ul {
+        margin: 15px 0 0 0;
+        padding: 0;
+        li a img {
+            width: 32px;
+        }
+    }
+    ///Arrow to the top
+    .arrow-top {
+        top: 0;
+        margin-top: 8%;
+        span {
+            margin-top: -12px;
+            width: 25px;
+            height: 25px;
+            border-bottom: 2px solid white;
+            border-right: 2px solid white;
+        }
+    }
+}
+///Tablet Landscape
+@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
+    ///DISPLAY NONE
+    .navbar-small-makers {
+        display: none;
+    }
+    .navbar-bigg-makers {
+        top: 0;
+        margin-top: 17.5%;
     }
     #de-makers {
         height: 100vh;
@@ -237,99 +368,55 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 20vh;
-        top: 95vh;
+        height: 19vh;
+        top: 81vh;
     }
     .footer p {
-        font-size: 13.5px;
-        // left: 0;
-        margin-left: 1.5rem;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 11.5px;
+        margin-left: 1.25rem;
+    }
+    .footer > p:nth-child(1) {
+        font-size: 14px;
+        font-weight: 400;
+        color: pink;
+    }
+    .footer > p:nth-child(6) {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    .footer > a:nth-child(4) {
+        margin-bottom: 0.8rem;
     }
     .container-right-side {
         margin-right: 1.5rem;
+        margin-top: 1.5rem;
         a {
             font-size: 18px;
             p {
-                margin: 0 0 20px 0;
+                margin: 0 0 15px 0;
             }
         }
     }
     .contact-buttons ul {
-        margin: 15px 0 0 0;
+        margin: 10px 0 0 0;
         padding: 0;
         li a img {
-            width: 35px;
+            width: 30px;
         }
     }
     ///Arrow to the top
-    .arrow-top span {
-        margin-top: -12px;
-        width: 30px;
-        height: 30px;
-        border-bottom: 2px solid white;
-        border-right: 2px solid white;
-    }
-}
-///Tablet Landscape
-@media screen and (min-width: 1023px) and (max-width: 1280px) and (orientation: landscape) {
-    ///DISPLAY NONE
-    .navbar-small-makers {
-        display: none;
-    }
-    .navbar-bigg-makers {
+    .arrow-top {
         top: 0;
-        margin-top: 7.5%;
-    }
-    #de-makers {
-        height: 100vh;
-    }
-    .container-makers {
-        top: 50%;
-        transform: translate(-50%, -50%);
-        h2 {
-            font-size: 37px;
-            letter-spacing: 0.04rem;
-            margin-bottom: 25px;
+        margin-top: 5%;
+        span {
+            margin-top: -12px;
+            width: 28px;
+            height: 28px;
+            border-bottom: 2px solid white;
+            border-right: 2px solid white;
         }
-        h1 {
-            font-size: 34px;
-            letter-spacing: 0.04rem;
-            margin: 15px;
-        }
-    }
-    ///Footer & FAQ pagina & social media buttons
-    .container-footer {
-        height: 20vh;
-        top: 95vh;
-    }
-    .footer p {
-        font-size: 13.5px;
-        // left: 0;
-        margin-left: 1.5rem;
-    }
-    .container-right-side {
-        margin-right: 1.5rem;
-        a {
-            font-size: 18px;
-            p {
-                margin: 0 0 20px 0;
-            }
-        }
-    }
-    .contact-buttons ul {
-        margin: 15px 0 0 0;
-        padding: 0;
-        li a img {
-            width: 35px;
-        }
-    }
-    ///Arrow to the top
-    .arrow-top span {
-        margin-top: -12px;
-        width: 30px;
-        height: 30px;
-        border-bottom: 2px solid white;
-        border-right: 2px solid white;
     }
 }
 ///Desktop
@@ -340,10 +427,10 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        margin-top: 17.5%;
+        margin-top: 30%;
     }
     #de-makers {
-        height: 115vh;
+        height: 110vh;
     }
     .container-makers {
         top: 40%;
@@ -358,18 +445,43 @@
             letter-spacing: 0.04rem;
             margin: 10px;
         }
+        p {
+            font-size: 12px;
+            font-style: italic;
+        }
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 25vh;
+        height: 20vh;
         top: 90vh;
     }
     .footer p {
-        font-size: 15px;
-        margin-left: 2rem;
+        font-size: 11.5px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        margin-left: 1.5rem;
+    }
+    .footer a {
+        opacity: 0.85;
+        &:hover {
+            opacity: 1;
+            transition: 400ms ease-in-out;
+        }
+    }
+    .footer > p:nth-child(1) {
+        font-size: 14px;
+        font-weight: 400;
+        color: pink;
+    }
+    .footer > p:nth-child(6) {
+        font-size: 11px;
+    }
+    .footer > a:nth-child(4) {
+        margin-bottom: 1rem;
     }
     .container-right-side {
         margin-right: 2rem;
+        margin-top: 1rem;
         a {
             font-size: 16px;
             opacity: 0.75;
@@ -380,7 +492,7 @@
         }
     }
     .contact-buttons ul {
-        margin: 0;
+        // margin: 0;
         padding: 0;
         li a img {
             width: 28px;
@@ -409,10 +521,10 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        margin-top: 10%;
+        margin-top: 15%;
     }
     #de-makers {
-        height: 115vh;
+        height: 110vh;
     }
     .container-makers {
         top: 40%;
@@ -427,20 +539,45 @@
             letter-spacing: 0.04rem;
             margin: 10px;
         }
+        p {
+            font-size: 13px;
+            font-style: italic;
+        }
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 25vh;
+        height: 20vh;
         top: 90vh;
     }
     .footer p {
-        font-size: 16px;
-        margin-left: 2.5rem;
+        font-size: 12.5px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        margin-left: 2rem;
+    }
+    .footer a {
+        opacity: 0.85;
+        &:hover {
+            opacity: 1;
+            transition: 400ms ease-in-out;
+        }
+    }
+    .footer > p:nth-child(1) {
+        font-size: 14px;
+        font-weight: 400;
+        color: pink;
+    }
+    .footer > p:nth-child(6) {
+        font-size: 11px;
+    }
+    .footer > a:nth-child(4) {
+        margin-bottom: 1rem;
     }
     .container-right-side {
         margin-right: 2.5rem;
+        margin-top: 1.5rem;
         a {
-            font-size: 16px;
+            font-size: 19px;
             opacity: 0.75;
             &:hover {
                 opacity: 1;
@@ -449,10 +586,10 @@
         }
     }
     .contact-buttons ul {
-        margin: 0;
+        // margin: 0;
         padding: 0;
         li a img {
-            width: 28px;
+            width: 29px;
         }
         a img:hover {
             -webkit-transform: scale(1.2);
@@ -464,8 +601,8 @@
     ///Arrow to the top
     .arrow-top span {
         margin-top: -15px;
-        width: 25px;
-        height: 25px;
+        width: 26px;
+        height: 26px;
         border-bottom: 2px solid white;
         border-right: 2px solid white;
     }

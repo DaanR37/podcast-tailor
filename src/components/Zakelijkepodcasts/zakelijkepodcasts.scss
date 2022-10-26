@@ -1,6 +1,5 @@
 #zakelijke-podcasts {
     position: relative;
-    height: 100vh;
     width: 100vw;
     font-family: "Roboto", sans-serif;
 }
@@ -19,6 +18,9 @@
     h3 {
         text-align: center;
         color: black;
+    }
+    p {
+        font-style: italic;
     }
 }
 .aanvraag-button-zakelijk {
@@ -40,6 +42,9 @@
     .navbar-small-zakelijke-podcasts {
         top: 0;
         // margin-top: 35%;
+    }
+    #zakelijke-podcasts {
+        height: 850px; ///OR 100VH
     }
     .container-zakelijk {
         width: 80%;
@@ -67,6 +72,15 @@
         img:nth-child(9) {
             width: 52.5px;
         }
+        p {
+            font-size: 12px;
+            margin-top: 15%;
+            margin-bottom: 0;
+        }
+        img:nth-child(13) {
+            width: 75vw;
+            margin-top: 7.5%;
+        }
     }
     .aanvraag-button-zakelijk {
         width: 175px;
@@ -90,6 +104,9 @@
     .navbar-small-zakelijke-podcasts {
         top: 0;
         margin-top: 27.5%;
+    }
+    #zakelijke-podcasts {
+        height: 425px;
     }
     .container-zakelijk {
         width: 60%;
@@ -117,6 +134,15 @@
         img:nth-child(9) {
             width: 50px;
         }
+        p {
+            font-size: 12px;
+            margin-top: 6.5%;
+            margin-bottom: 0;
+        }
+        img:nth-child(13) {
+            width: 45vw;
+            margin-top: 3%;
+        }
     }
     .aanvraag-button-zakelijk {
         width: 150px;
@@ -140,6 +166,9 @@
     .navbar-bigg-zakelijke-podcasts {
         top: 0;
         // margin-top: 5%;
+    }
+    #zakelijke-podcasts {
+        height: 100vh; ///OR 1150px
     }
     .container-zakelijk {
         width: 60%;
@@ -167,11 +196,20 @@
         img:nth-child(9) {
             width: 55px;
         }
+        p {
+            font-size: 12px;
+            margin-top: 8.5%;
+            margin-bottom: 0;
+        }
+        img:nth-child(13) {
+            width: 55vw;
+            margin-top: 4%;
+        }
     }
     .aanvraag-button-zakelijk {
         width: 225px;
         height: 40px;
-        margin-top: 8%;
+        margin-top: 4%;
         h1 {
             font-size: 18px;
             font-weight: 600;
@@ -190,6 +228,9 @@
     .navbar-bigg-zakelijke-podcasts {
         top: 0;
         margin-top: 5%;
+    }
+    #zakelijke-podcasts {
+        height: 100vh; ///OR 950px
     }
     .container-zakelijk {
         width: 55%;
@@ -217,11 +258,20 @@
         img:nth-child(9) {
             width: 60px;
         }
+        p {
+            font-size: 12px;
+            margin-top: 8%;
+            margin-bottom: 0;
+        }
+        img:nth-child(13) {
+            width: 55vw;
+            margin-top: 4%;
+        }
     }
     .aanvraag-button-zakelijk {
         width: 225px;
         height: 40px;
-        margin-bottom: 5%;
+        margin-top: 4%;
         h1 {
             font-size: 18px;
             font-weight: 600;
@@ -241,6 +291,9 @@
         top: 0;
         margin-top: 10%;
     }
+    #zakelijke-podcasts {
+        height: 100vh; ///OR IN PIXELS
+    }
     .container-zakelijk {
         width: 50%;
         margin-top: 10%;
@@ -251,7 +304,6 @@
         }
         h3 {
             font-size: 23px;
-            // font-weight: 400;
             letter-spacing: 0.04rem;
             margin-top: 12.5px;
             line-height: 1.6rem;
@@ -267,12 +319,20 @@
         img:nth-child(9) {
             width: 65px;
         }
+        p {
+            font-size: 21px;
+            margin-top: 12.5%;
+            margin-bottom: 0;
+        }
+        img:nth-child(13) {
+            width: 50vw;
+            margin-top: 5.5%;
+        }
     }
     .aanvraag-button-zakelijk {
         width: 315px;
         height: 52.5px;
-        margin-top: 3.5%;
-        // margin: 3% 0%;
+        margin-top: 5%;
         cursor: pointer;
         h1 {
             font-size: 22px;
@@ -296,6 +356,9 @@
     .navbar-bigg-zakelijke-podcasts {
         top: 0;
         margin-top: 5%;
+    }
+    #zakelijke-podcasts {
+        height: 100vh; ///OR IN PIXELS
     }
     .container-zakelijk {
         width: 50%;
@@ -322,6 +385,15 @@
         }
         img:nth-child(9) {
             width: 65px;
+        }
+        p {
+            font-size: 21px;
+            margin-top: 5%;
+            margin-bottom: 0;
+        }
+        img:nth-child(13) {
+            width: 50vw;
+            margin-top: 2.5%;
         }
     }
     .aanvraag-button-zakelijk {
