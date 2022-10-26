@@ -2,17 +2,10 @@ import "./persoonlijkepodcasts.scss";
 import Navbar from "../Navbar/Navbar";
 import NavbarSmall from "../Navbarsmall/NavbarSmall";
 import AudioPlayer from "./Audioplayer/AudioPlayer";
-// import { Helmet } from 'react-helmet'
 
 export default function PersoonlijkePodcasts() {
     return (
         <section id="persoonlijke-podcasts">
-            {/* <Helmet>
-                <title>Podcast Tailor - podcasts op maat</title>
-                <meta name="description" content="Geef een podcast cadeau aan iemand die u dierbaar is, 
-                vul het aanvraag formulier in en wij nemen contact met u op. 
-                Of start een Whatsapp gesprek door op het icoontje te klikken" />
-            </Helmet> */}
             <div className="navbar-bigg-persoonlijke-podcasts">
                 <Navbar />
             </div>

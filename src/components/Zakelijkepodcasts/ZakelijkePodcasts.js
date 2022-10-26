@@ -1,7 +1,6 @@
 import "./zakelijkepodcasts.scss";
 import Navbar from "../Navbar/Navbar";
 import NavbarSmall from "../Navbarsmall/NavbarSmall";
-// import { Helmet } from 'react-helmet'
 
 export default function ZakelijkePodcasts() {
     return (
