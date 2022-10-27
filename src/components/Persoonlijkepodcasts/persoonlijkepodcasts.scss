@@ -58,14 +58,15 @@
         display: none;
     }
     .navbar-small-persoonlijke-podcasts {
+        position: relative;
         top: 0;
-        // margin-top: 35%;
     }
     #persoonlijke-podcasts {
-        height: 750px; ///OR 100VH
+        height: 750px; ///OR 100vh
     }
     .container-persoonlijk {
-        width: 80%;
+        width: 100%;
+        max-width: 330px;
         margin-top: 28.5%;
         h1 {
             font-size: 15px;
@@ -73,11 +74,11 @@
             margin-bottom: 2.5px;
         }
         h3 {
-            font-size: 13.5px;
+            font-size: 14px;
             // font-weight: 400;
             letter-spacing: 0.01rem;
             margin-top: 15px;
-            line-height: 1.25rem;
+            line-height: 1.5rem;
         }
         p {
             margin-top: 9%;
@@ -127,7 +128,7 @@
         // margin-top: 35%;
     }
     #persoonlijke-podcasts {
-        height: 400px; ///OR 100VH
+        height: 400px; ///was 100VH
     }
     .container-persoonlijk {
         width: 60%;

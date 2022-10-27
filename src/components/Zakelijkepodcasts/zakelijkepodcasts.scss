@@ -40,22 +40,23 @@
         display: none;
     }
     .navbar-small-zakelijke-podcasts {
+        position: relative;
         top: 0;
-        // margin-top: 35%;
     }
     #zakelijke-podcasts {
-        height: 850px; ///OR 100VH
+        height: 850px; ///OR 100vh
     }
     .container-zakelijk {
-        width: 80%;
-        margin-top: 28.5%;
+        width: 100%;
+        max-width: 330px;
+        margin-top: 28.5%; 
         h1 {
             font-size: 15px;
             color: #d16654;
             margin-bottom: 5px;
         }
         h3 {
-            font-size: 13.5px;
+            font-size: 14px;
             // font-weight: 400;
             letter-spacing: 0.01rem;
             margin-top: 15px;
@@ -103,7 +104,7 @@
     }
     .navbar-small-zakelijke-podcasts {
         top: 0;
-        margin-top: 27.5%;
+        margin-top: 175px;   ////was 27.5%
     }
     #zakelijke-podcasts {
         height: 425px;
@@ -227,7 +228,7 @@
     }
     .navbar-bigg-zakelijke-podcasts {
         top: 0;
-        margin-top: 5%;
+        margin-top: 50px;  /// was 5%
     }
     #zakelijke-podcasts {
         height: 100vh; ///OR 950px
@@ -289,7 +290,7 @@
     }
     .navbar-bigg-zakelijke-podcasts {
         top: 0;
-        margin-top: 10%;
+        margin-top: 150px;   ///was 10%
     }
     #zakelijke-podcasts {
         height: 100vh; ///OR IN PIXELS
@@ -355,7 +356,7 @@
     }
     .navbar-bigg-zakelijke-podcasts {
         top: 0;
-        margin-top: 5%;
+        margin-top: 120px;   ///was 5%
     }
     #zakelijke-podcasts {
         height: 100vh; ///OR IN PIXELS

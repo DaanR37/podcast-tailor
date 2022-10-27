@@ -109,11 +109,12 @@
         display: none;
     }
     .navbar-small-makers {
+        position: relative;
         top: 0;
-        margin-top: 20%;
+        margin-top: 100px; ///was 20%
     }
     #de-makers {
-        height: 100vh;
+        height: 850px;   ///OR 100vh
     }
     .container-makers {
         width: 90%;
@@ -135,8 +136,8 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 15vh; ///was 15vh
-        top: 85vh;
+        height: 125px; ///was 15vh
+        // top: 85vh;
     }
     .contact-container {
         margin-left: 0.75rem;
@@ -194,22 +195,22 @@
     }
     .navbar-small-makers {
         top: 0;
-        margin-top: 42.5%;
+        margin-top: 350px;    /// was 42.5%
     }
     #de-makers {
-        height: 115vh;
+        height: 425px;   ////was 115vh
     }
     .container-makers {
         width: 100%;
         top: 40%;
         transform: translate(-50%, -40%);
         h2 {
-            font-size: 20.5px;
+            font-size: 19px;
             letter-spacing: 0.01rem;
             margin-bottom: 20px;
         }
         h1 {
-            font-size: 18.5px;
+            font-size: 17px;
             letter-spacing: 0.01rem;
             margin: 10px;
         }
@@ -219,8 +220,8 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 28vh;
-        top: 87vh;
+        height: 115px; ///was 28vh
+        // top: 87vh;
     }
     .contact-container {
         margin-left: 0.5rem;
@@ -277,7 +278,7 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        margin-top: 7.5%;
+        margin-top: 100px;   ///was 7.5%
     }
     #de-makers {
         height: 100vh;
@@ -298,8 +299,8 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 15vh;
-        top: 85vh;
+        height: 150px; /// was 15vh
+        // top: 85vh;
     }
     .contact-container {
         margin-left: 0.5rem;
@@ -357,7 +358,7 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        margin-top: 17.5%;
+        margin-top: 200px;   ///was 17.5%
     }
     #de-makers {
         height: 100vh;
@@ -378,8 +379,8 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 19vh;
-        top: 81vh;
+        height: 150px;   ///was 19vh
+        // top: 81vh;
     }
     .contact-container {
         margin-left: 0.5rem;
@@ -437,10 +438,10 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        margin-top: 30%;
+        margin-top: 450px;   ///was 30%
     }
     #de-makers {
-        height: 110vh;
+        height: 110vh;   ///was 110vh
     }
     .container-makers {
         top: 40%;
@@ -462,8 +463,8 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 20vh;
-        top: 90vh;
+        height: 155px;   ///was 20vh
+        // top: 90vh;
     }
     .contact-container {
         margin-left: 1.5rem;
@@ -531,7 +532,7 @@
     }
     .navbar-bigg-makers {
         top: 0;
-        margin-top: 15%;
+        margin-top: 350px;   ///was 15%
     }
     #de-makers {
         height: 110vh;
@@ -556,8 +557,8 @@
     }
     ///Footer & FAQ pagina & social media buttons
     .container-footer {
-        height: 20vh;
-        top: 90vh;
+        height: 185px;   ///was 20vh
+        // top: 90vh;
     }
     .contact-container {
         margin-left: 1.5rem;
