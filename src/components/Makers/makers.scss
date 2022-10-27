@@ -150,6 +150,9 @@
             margin-bottom: 2px;
         }
     }
+    .contact-container > a:nth-child(4) P{
+        margin-bottom: 27.5px;
+    }
     .contact-container > p:nth-child(1) {
         font-size: 9.5px;
     }
@@ -163,11 +166,12 @@
         // margin-right: 1rem;
         margin-right: 15px;
         // margin-top: 1rem;
-        margin-top: 15px;
+        // margin-top: 15px;
+        margin-bottom: 27.5px;
         a {
             font-size: 11px;
             p {
-                margin: 0 0 25px 0;
+                margin: 0 0 15px 0;
             }
         }
     }
