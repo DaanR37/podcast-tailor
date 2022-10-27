@@ -39,7 +39,7 @@
     }
     ///REST OF CODE
     #home {
-        height: 850px; ///OR 100vh
+        height: 700px; ///OR 100vh
     }
     .container-logo {
         top: 40%;
@@ -49,11 +49,12 @@
         width: 80vw;
     }
     .podcast-buttons {
-        margin-top: 10%;
+        margin-top: 30px;   ///was 10%
         button {
             display: flex;
             letter-spacing: 0.05rem;
-            margin: 2vw 0vw;
+            margin: 7.5px 0px;
+            // margin: 2vw 0vw;
             background-color: #d06654;
             border-radius: 2.5px;
         }
@@ -79,7 +80,7 @@
     }
     ///REST OF CODE
     #home {
-        height: 400px; ///OR 100vh
+        height: 390px; ///OR 100vh
     }
     .container-logo {
         top: 67.5%;
@@ -90,10 +91,11 @@
     }
     .podcast-buttons {
         display: flex;
-        margin-top: 7.5%;
+        margin-top: 17.5px;   //// 7.5%
         button {
             letter-spacing: 0.01rem;
-            margin: 0vw 0.1vw;
+            margin: 0px 2.5px;
+            // margin: 0vw 0.1vw;
             a {
                 width: 17vw;
                 height: 25px;
@@ -136,10 +138,11 @@
     }
     .podcast-buttons {
         display: flex;
-        margin-top: 10%;
+        margin-top: 55px;   ///was 10%
         button {
             letter-spacing: 0.05rem;
-            margin: 0vw 0.4vw;
+            margin: 0px 3.5px;
+            // margin: 0vw 0.4vw;
             a {
                 width: 28vw;
                 height: 37.5px;
@@ -182,10 +185,11 @@
     }
     .podcast-buttons {
         display: flex;
-        margin-top: 10%;
+        margin-top: 55px;   /// was 10%
         button {
             letter-spacing: 0.05rem;
-            margin: 0vw 0.5vw;
+            margin: 0px 5px;
+            // margin: 0vw 0.5vw;
             a {
                 width: 21vw;
                 height: 37.5px;
@@ -228,10 +232,11 @@
     }
     .podcast-buttons {
         display: flex;
-        margin-top: 10%;
+        margin-top: 60px;  ///was 10%
         button {
             letter-spacing: 0.05rem;
-            margin: 0vw 0.6vw;
+            margin: 0px 10px;
+            // margin: 0vw 0.6vw;
             cursor: pointer;
             a {
                 width: 19vw;
@@ -283,10 +288,11 @@
     }
     .podcast-buttons {
         display: flex;
-        margin-top: 10%;
+        margin-top: 70px;   /// was 10%
         button {
             letter-spacing: 0.05rem;
-            margin: 0vw 0.6vw;
+            margin: 0px 10px;
+            // margin: 0vw 0.6vw;
             cursor: pointer;
             a {
                 width: 19vw;
