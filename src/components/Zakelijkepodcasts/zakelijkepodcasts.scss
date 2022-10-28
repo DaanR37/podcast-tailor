@@ -31,7 +31,8 @@
     background-color: #479082;
     border: yellow dotted 1px;
     border-radius: 2.5px;
-    font-family: "Roboto Condensed", sans-serif;
+    // font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 ///Mobile Portrait
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -44,7 +45,7 @@
         top: 0;
     }
     #zakelijke-podcasts {
-        height: 850px; ///OR 100vh
+        height: 750px; ///OR 100vh
     }
     .container-zakelijk {
         width: 100%;
@@ -58,7 +59,7 @@
         }
         h3 {
             font-size: 14px;
-            // font-weight: 400;
+            font-weight: 400;
             letter-spacing: 0.01rem;
             margin-top: 15px;
             line-height: 1.25rem;
@@ -83,7 +84,7 @@
         img:nth-child(13) {
             width: 75vw;
             // margin-top: 7.5%;
-            margin-top: 20px;
+            margin-top: 10px;
         }
     }
     .aanvraag-button-zakelijk {
@@ -94,7 +95,7 @@
         h1 {
             font-size: 14px;
             font-weight: 600;
-            letter-spacing: 0.08rem;
+            letter-spacing: 0.05rem;
             color: whitesmoke;
             margin: 0;
         }
@@ -114,7 +115,8 @@
         height: 425px;
     }
     .container-zakelijk {
-        width: 60%;
+        width: 100%;
+        max-width: 425px;
         // margin-top: 12.5%;
         margin-top: 110px;
         h1 {
@@ -123,9 +125,9 @@
             // margin: 0;
         }
         h3 {
-            font-size: 13.5px;
-            // font-weight: 400;
-            letter-spacing: 0.03rem;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.01rem;
             margin-top: 5px;
             line-height: 1.25rem;
         }
@@ -160,7 +162,7 @@
         h1 {
             font-size: 12px;
             font-weight: 600;
-            letter-spacing: 0.08rem;
+            letter-spacing: 0.05rem;
             color: whitesmoke;
             margin: 0;
         }
@@ -177,10 +179,12 @@
         // margin-top: 5%;
     }
     #zakelijke-podcasts {
-        height: 100vh; ///OR 1150px
+        // height: 100vh; ///OR 1150px
+        height: 1050px;
     }
     .container-zakelijk {
-        width: 60%;
+        width: 100%;
+        max-width: 525px;
         // margin-top: 20%;
         margin-top: 175px;
         h1 {
@@ -189,11 +193,11 @@
             margin-bottom: 7.5px;
         }
         h3 {
-            font-size: 19px;
-            // font-weight: 400;
+            font-size: 20px;
+            font-weight: 400;
             letter-spacing: 0.03rem;
             margin-top: 12.5px;
-            line-height: 1.9rem;
+            line-height: 1.8rem;
         }
         img {
             margin-top: 10px;
@@ -207,7 +211,7 @@
             width: 55px;
         }
         p {
-            font-size: 12px;
+            font-size: 15px;
             // margin-top: 8.5%;
             margin-top: 40px;
             margin-bottom: 0;
@@ -215,7 +219,7 @@
         img:nth-child(13) {
             width: 55vw;
             // margin-top: 4%;
-            margin-top: 20px;
+            margin-top: 15px;
         }
     }
     .aanvraag-button-zakelijk {
@@ -226,7 +230,7 @@
         h1 {
             font-size: 18px;
             font-weight: 600;
-            letter-spacing: 0.08rem;
+            letter-spacing: 0.05rem;
             color: whitesmoke;
             margin: 0;
         }
@@ -243,10 +247,12 @@
         margin-top: 50px;  /// was 5%
     }
     #zakelijke-podcasts {
-        height: 100vh; ///OR 950px
+        // height: 100vh; ///OR 950px
+        height: 850px;
     }
     .container-zakelijk {
-        width: 55%;
+        width: 100%;
+        max-width: 625px;
         // margin-top: 15%;
         margin-top: 150px;
         h1 {
@@ -255,11 +261,11 @@
             margin-bottom: 5px;
         }
         h3 {
-            font-size: 19px;
+            font-size: 20px;
             font-weight: 400;
             letter-spacing: 0.03rem;
             margin-top: 12.5px;
-            // line-height: 1.6rem;
+            line-height: 1.6rem;
         }
         img {
             margin-top: 5px;
@@ -273,7 +279,7 @@
             width: 60px;
         }
         p {
-            font-size: 12px;
+            font-size: 15px;
             // margin-top: 8%;
             margin-top: 40px;
             margin-bottom: 0;
@@ -292,7 +298,7 @@
         h1 {
             font-size: 18px;
             font-weight: 600;
-            letter-spacing: 0.08rem;
+            letter-spacing: 0.05rem;
             color: whitesmoke;
             margin: 0;
         }
@@ -309,7 +315,8 @@
         margin-top: 150px;   ///was 10%
     }
     #zakelijke-podcasts {
-        height: 100vh; ///OR IN PIXELS
+        // height: 100vh; ///OR IN PIXELS
+        height: 775px;
     }
     .container-zakelijk {
         width: 50%;
@@ -322,9 +329,11 @@
         }
         h3 {
             font-size: 23px;
+            font-weight: 400;
             letter-spacing: 0.04rem;
             margin-top: 12.5px;
-            line-height: 1.6rem;
+            // line-height: 1.6rem;
+            line-height: 30px;
         }
         img {
             margin-top: 5px;
@@ -338,7 +347,7 @@
             width: 65px;
         }
         p {
-            font-size: 21px;
+            font-size: 17px;
             // margin-top: 12.5%;
             margin-top: 60px;
             margin-bottom: 0;
@@ -379,23 +388,25 @@
         margin-top: 120px;   ///was 5%
     }
     #zakelijke-podcasts {
-        height: 100vh; ///OR IN PIXELS
+        // height: 100vh; ///OR IN PIXELS
+        height: 975px;
     }
     .container-zakelijk {
         width: 50%;
         // margin-top: 10%;
         margin-top: 190px;
         h1 {
-            font-size: 26px;
+            font-size: 28px;
             color: #d16654;
             margin-bottom: 10px;
         }
         h3 {
-            font-size: 24px;
-            // font-weight: 400;
+            font-size: 26px;
+            font-weight: 400;
             letter-spacing: 0.05rem;
             margin-top: 12.5px;
-            line-height: 1.6rem;
+            // line-height: 1.6rem;
+            line-height: 32.5px;
         }
         img {
             margin-top: 5px;
@@ -409,7 +420,7 @@
             width: 65px;
         }
         p {
-            font-size: 21px;
+            font-size: 19px;
             // margin-top: 5%;
             margin-top: 55px;
             margin-bottom: 0;
@@ -427,7 +438,7 @@
         margin-top: 35px;
         cursor: pointer;
         h1 {
-            font-size: 22px;
+            font-size: 23px;
             font-weight: 600;
             letter-spacing: 0.1rem;
             color: whitesmoke;
